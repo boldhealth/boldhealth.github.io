@@ -1,0 +1,332 @@
+
+<html>
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+      <link rel="stylesheet" href="css/style.css"/>
+      <script src="js/global.js"></script>
+      <script type="application/javascript" src="js/jquery.nice-select.js"></script>
+      <script type="application/javascript" src="js/initialize.js"></script>
+      <link rel="stylesheet" href="css/nice-select.css"/>
+      <link rel="stylesheet" href="css/custom-checbox.css"/>
+      <link rel="stylesheet" href="css/customs/radio.css"/>
+      <link rel="stylesheet" href="css/responsive.css"/>
+    <link rel="stylesheet" type="text/css" href="css/diary.css"/>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar header-nav navbar-expand-lg navbar-toggleable-lg navbar-light bg-light">
+        <div class="row"><a class="nav-link" href="diary-calendar.html"><span class="navbar__pageTitle">Diary</span></a></div>
+        <div class="row"><a class="btn btn-outline-secondary" href="add-diary.html"><i class="ion-android-add"></i></a>
+          <button class="navbar-toggler navbar-toggler-right" id="btnPopoverContent" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" data-toggle="popover" data-content="&lt;ol&gt;&lt;li&gt;Progress &lt;li&gt;Community &lt;li&gt; Help &lt;li&gt;Settings &lt;/ol&gt;" data-html="true"><span class="navbar-toggler-icon"></span></button>
+        </div>
+      </nav>
+    </div>
+      <nav class="navbar fixed-bottom navbar-light footer bg-light text-center">
+        <div class="col-xs-12">
+          <div class="container-fluid">
+            <div class="links">
+              <div class="row">
+                <div class="col-xs-2"><a class="nav-link" href="diary-calendar.html"> <i class="ion-document-text"></i>
+                    <div><span class="label">Diary</span></div></a></div>
+                <div class="col-xs-2"><a class="nav-link" href="modules.html"> <i class="ion-android-hand"></i>
+                    <div><span class="label">Session</span></div></a></div>
+                <div class="col-xs-4"><a class="nav-link" href="talk-to-elle.html"><img src="images/__ellePic.png" height="42" width="42"/></a></div>
+                <div class="col-xs-2"><a class="nav-link" href="practices.html"><i class="ion-ios-musical-notes"></i>
+                    <div><span class="label">Practice</span></div></a></div>
+                <div class="col-xs-2"><a class="nav-link" href="rescue-mode.html"><i class="ion-flash"></i>
+                    <div><span class="label">Rescue</span></div></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="calendar">
+            <div class="calendar">
+              <table class="text-center" style="width: 100%;">
+                <tr style="padding-bottom: 80px;">
+                  <td><a class="btn btn-outline-secondary calendar__btnBack calendar__calendarNav"><i class="ion-ios-arrow-back"></i></a></td>
+                  <td class="calendar__month" colspan="5">March <strong class="calendar__year">2018</span></td>
+                  <td><a class="btn btn-outline-secondary calendar__btnNext calendar__calendarNav"><i class="ion-ios-arrow-forward"></i></a></td>
+                </tr>
+                <tr>
+                  <div class="days">
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                  </div>
+                </tr>
+                <tr>
+                  <td>
+                                  <div class="pain"><a class="btn btn-secondary pain__btnPain" data-toggle="modal" data-target="#diaryEntry"><i class="ion-android-sad"></i><br/>
+                                      <!--span 3--></a></div><span>1</span>
+                  </td>
+                  <td>
+                                  <div class="pain"><a class="btn btn-secondary pain__btnPain" data-toggle="modal" data-target="#diaryEntry"><i class="ion-android-sad"></i><br/>
+                                      <!--span 3--></a></div><span>2</span>
+                  </td>
+                  <td>
+                                  <div class="pain"><a class="btn btn-secondary pain__btnPain" data-toggle="modal" data-target="#diaryEntry"><i class="ion-android-sad"></i><br/>
+                                      <!--span 3--></a></div><span>3</span>
+                  </td>
+                  <td>
+                                  <div class="pain"><a class="btn btn-secondary pain__btnPain" data-toggle="modal" data-target="#diaryEntry"><i class="ion-android-sad"></i><br/>
+                                      <!--span 3--></a></div><span>4</span>
+                  </td>
+                  <td>
+                                  <div class="pain"><a class="btn btn-secondary pain__btnPain" data-toggle="modal" data-target="#diaryEntry"><i class="ion-android-sad"></i><br/>
+                                      <!--span 3--></a></div><span>5</span>
+                  </td>
+                  <td>
+                                  <div class="pain"><a class="btn btn-secondary pain__btnPain" data-toggle="modal" data-target="#diaryEntry"><i class="ion-android-sad"></i><br/>
+                                      <!--span 3--></a></div><span>6</span>
+                  </td>
+                  <td>
+                                  <div class="pain"><a class="btn btn-secondary pain__btnPain" data-toggle="modal" data-target="#diaryEntry"><i class="ion-android-sad"></i><br/>
+                                      <!--span 3--></a></div><span>7</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                                  <div class="noPain"><a class="btn btn-outline-primary noPain__btnNoPain" aria-disabled="true"><i class="ion-android-happy"></i><br/>
+                                      <!--span &nbsp;--></a></div><span class="noPain">8</span>
+                  </td>
+                  <td>
+                                  <div class="pain"><a class="btn btn-secondary pain__btnPain" data-toggle="modal" data-target="#diaryEntry"><i class="ion-android-sad"></i><br/>
+                                      <!--span 3--></a></div><span>9</span>
+                  </td>
+                  <td>
+                                  <div class="pain"><a class="btn btn-secondary pain__btnPain" data-toggle="modal" data-target="#diaryEntry"><i class="ion-android-sad"></i><br/>
+                                      <!--span 3--></a></div><span>10</span>
+                  </td>
+                  <td>
+                                  <div class="pain"><a class="btn btn-secondary pain__btnPain" data-toggle="modal" data-target="#diaryEntry"><i class="ion-android-sad"></i><br/>
+                                      <!--span 3--></a></div><span>11</span>
+                  </td>
+                  <td>
+                                  <div class="pain"><a class="btn btn-secondary pain__btnPain" data-toggle="modal" data-target="#diaryEntry"><i class="ion-android-sad"></i><br/>
+                                      <!--span 3--></a></div><span>12</span>
+                  </td>
+                  <td>
+                                  <div class="pain"><a class="btn btn-secondary pain__btnPain" data-toggle="modal" data-target="#diaryEntry"><i class="ion-android-sad"></i><br/>
+                                      <!--span 3--></a></div><span>13</span>
+                  </td>
+                  <td>
+                                  <div class="pain"><a class="btn btn-secondary pain__btnPain" data-toggle="modal" data-target="#diaryEntry"><i class="ion-android-sad"></i><br/>
+                                      <!--span 3--></a></div><span>14</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                                  <div class="noPain"><a class="btn btn-outline-primary noPain__btnNoPain" aria-disabled="true"><i class="ion-android-happy"></i><br/>
+                                      <!--span &nbsp;--></a></div><span class="noPain">8</span>
+                  </td>
+                  <td>
+                                  <div class="pain"><a class="btn btn-secondary pain__btnPain" data-toggle="modal" data-target="#diaryEntry"><i class="ion-android-sad"></i><br/>
+                                      <!--span 3--></a></div><span>9</span>
+                  </td>
+                  <td>
+                                  <div class="pain"><a class="btn btn-secondary pain__btnPain" data-toggle="modal" data-target="#diaryEntry"><i class="ion-android-sad"></i><br/>
+                                      <!--span 3--></a></div><span>10</span>
+                  </td>
+                  <td>
+                                  <div class="pain"><a class="btn btn-secondary pain__btnPain" data-toggle="modal" data-target="#diaryEntry"><i class="ion-android-sad"></i><br/>
+                                      <!--span 3--></a></div><span>11</span>
+                  </td>
+                  <td>
+                                  <div class="pain"><a class="btn btn-secondary pain__btnPain" data-toggle="modal" data-target="#diaryEntry"><i class="ion-android-sad"></i><br/>
+                                      <!--span 3--></a></div><span>12</span>
+                  </td>
+                  <td>
+                                  <div class="pain"><a class="btn btn-secondary pain__btnPain" data-toggle="modal" data-target="#diaryEntry"><i class="ion-android-sad"></i><br/>
+                                      <!--span 3--></a></div><span>13</span>
+                  </td>
+                  <td>
+                                  <div class="pain"><a class="btn btn-secondary pain__btnPain" data-toggle="modal" data-target="#diaryEntry"><i class="ion-android-sad"></i><br/>
+                                      <!--span 3--></a></div><span>14</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                                  <div class="noPain"><a class="btn btn-outline-primary noPain__btnNoPain" aria-disabled="true"><i class="ion-android-happy"></i><br/>
+                                      <!--span &nbsp;--></a></div><span class="noPain">8</span>
+                  </td>
+                  <td>
+                                  <div class="noPain"><a class="btn btn-outline-primary noPain__btnNoPain" aria-disabled="true"><i class="ion-android-happy"></i><br/>
+                                      <!--span &nbsp;--></a></div><span class="noPain">9</span>
+                  </td>
+                  <td>
+                                  <div class="pain"><a class="btn btn-secondary pain__btnPain" data-toggle="modal" data-target="#diaryEntry"><i class="ion-android-sad"></i><br/>
+                                      <!--span 3--></a></div><span>10</span>
+                  </td>
+                  <td>
+                                  <div class="noPain"><a class="btn btn-outline-primary noPain__btnNoPain" aria-disabled="true"><i class="ion-android-happy"></i><br/>
+                                      <!--span &nbsp;--></a></div><span class="noPain">11</span>
+                  </td>
+                  <td>
+                                  <div class="noPain"><a class="btn btn-outline-primary noPain__btnNoPain" aria-disabled="true"><i class="ion-android-happy"></i><br/>
+                                      <!--span &nbsp;--></a></div><span class="noPain">12</span>
+                  </td>
+                  <td>
+                                  <div class="pain"><a class="btn btn-secondary pain__btnPain" data-toggle="modal" data-target="#diaryEntry"><i class="ion-android-sad"></i><br/>
+                                      <!--span 3--></a></div><span>13</span>
+                  </td>
+                  <td>
+                                  <div class="pain"><a class="btn btn-secondary pain__btnPain" data-toggle="modal" data-target="#diaryEntry"><i class="ion-android-sad"></i><br/>
+                                      <!--span 3--></a></div><span>14	</span>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!--div.calendarMain
+            mixin pained
+            	div.pain
+            		a.btn.btn-secondary(data-toggle="modal" data-target="#diaryEntry")
+            			i.ion-android-sad
+            			br
+            			span 3 Entries
+            mixin no-pain
+            	div.no-pain
+            		a.btn.btn-outline-secondary.disabled(aria-disabled="true")
+            			i.ion-android-happy
+            			br
+            			span No Pain
+            		
+            table.text-center(style="width: 375px")
+            	tr(style="padding-bottom: 80px")
+            		td
+            			a.btn.btn-outline-secondary Previous
+            		td
+            		td
+            		td 
+            			h3 March 2018
+            		td
+            		td
+            		td
+            			a.btn.btn-outline-secondary Next
+            	tr
+            		td Sun
+            		td Mon
+            		td Tue
+            		td Wed
+            		td Thu
+            		td Fri
+            		td Sat
+            
+            	tr
+            		td
+            		td
+            		td
+            			+pained
+            			span.calendarMain__no 1
+            		td
+            			+pained
+            			span.calendarMain__no 2
+            		td
+            			+no-pain
+            			span.calendarMain__no 3
+            		td
+            			+no-pain
+            			span.calendarMain__no 4
+            		td
+            			+pained
+            			span.calendarMain__no 5
+            	tr
+            		td
+            			+pained
+            			span.calendarMain__no 6
+            		td
+            			+pained
+            			span.calendarMain__no 7
+            			
+            -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<div class="modal fade" id="diaryEntry" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">23 March 2018</h5>
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <div class="diaryEntry">
+          <div class="media"><i class="ion-ios-partlysunny diaryEntry__iconDay"></i>
+            <div class="media-body">
+              <ul>
+                <li>I feel pain in the <strong> Morning at 9AM</strong></li>
+                <li>I have <strong> menstruation</strong></li>
+                <li>The pain lasted for <strong> 23 mins</strong></li>
+                <li>I ate <strong>Apple, Banana</strong></li>
+                <li>My last activity is <strong> Jogging </strong></li>
+                <li><a class="btn btn-outline-secondary" href="add-diary.html">Edit</a><a class="btn btn-outline-secondary">Delete</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr/>
+        </div>
+                <div class="diaryEntry">
+                  <div class="media"><i class="ion-ios-cloudy-night diaryEntry__iconNight"></i>
+                    <div class="media-body">
+                      <ul>
+                        <li>I feel pain in the <strong> Morning at 9AM</strong></li>
+                        <li>I have <strong> menstruation</strong></li>
+                        <li>The pain lasted for <strong> 23 mins</strong></li>
+                        <li>I ate <strong>Apple, Banana</strong></li>
+                        <li>My last activity is <strong> Jogging </strong></li>
+                        <li><a class="btn btn-outline-secondary" href="add-diary.html">Edit</a><a class="btn btn-outline-secondary">Delete</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <hr/>
+                </div>
+                <div class="diaryEntry">
+                  <div class="media"><i class="ion-ios-cloudy-night diaryEntry__iconNight"></i>
+                    <div class="media-body">
+                      <ul>
+                        <li>I feel pain in the <strong> Morning at 9AM</strong></li>
+                        <li>I have <strong> menstruation</strong></li>
+                        <li>The pain lasted for <strong> 23 mins</strong></li>
+                        <li>I ate <strong>Apple, Banana</strong></li>
+                        <li>My last activity is <strong> Jogging </strong></li>
+                        <li><a class="btn btn-outline-secondary" href="add-diary.html">Edit</a><a class="btn btn-outline-secondary">Delete</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <hr/>
+                </div>
+                <div class="diaryEntry">
+                  <div class="media"><i class="ion-ios-cloudy-night diaryEntry__iconNight"></i>
+                    <div class="media-body">
+                      <ul>
+                        <li>I feel pain in the <strong> Morning at 9AM</strong></li>
+                        <li>I have <strong> menstruation</strong></li>
+                        <li>The pain lasted for <strong> 23 mins</strong></li>
+                        <li>I ate <strong>Apple, Banana</strong></li>
+                        <li>My last activity is <strong> Jogging </strong></li>
+                        <li><a class="btn btn-outline-secondary" href="add-diary.html">Edit</a><a class="btn btn-outline-secondary">Delete</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <hr/>
+                </div>
+      </div>
+    </div>
+  </div>
+</div>

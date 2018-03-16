@@ -1,0 +1,54 @@
+
+<html>
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+      <link rel="stylesheet" href="css/style.css"/>
+      <script src="js/global.js"></script>
+      <script type="application/javascript" src="js/jquery.nice-select.js"></script>
+      <script type="application/javascript" src="js/initialize.js"></script>
+      <link rel="stylesheet" href="css/nice-select.css"/>
+      <link rel="stylesheet" href="css/custom-checbox.css"/>
+      <link rel="stylesheet" href="css/customs/radio.css"/>
+      <link rel="stylesheet" href="css/responsive.css"/>
+    <link rel="stylesheet" href="css/modules.css"/>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar header-nav navbar-expand-lg navbar-toggleable-lg navbar-light bg-light exit">
+        <div class="row"><a class="nav-link" id="btnPopoverContent" data-toggle="popover" title="Confirm Exit" data-content="&lt;div&gt;Are you sure? Your activity up until this point will be saved&lt;/div&gt;&lt;div&gt;&lt;a href='view-module-text.html' class='btn btn-outline-secondary exit__btnExit' value='Resume'&gt;Resume&lt;/a&gt;&lt;a href='modules.html' class='btn btn-outline-secondary exit__btnResume'&gt; Exit &lt;/a&gt;" data-html="true"><i class="ion-android-arrow-back"></i><span class="label">Session 1: IBS and Digestive Sys...</span></a><a class="float-right" id="btnPopoverContent" data-toggle="popover" title="Module 1 Content" data-content="&lt;ol&gt;&lt;li&gt;Overview &lt;li&gt;The digestive system &lt;li&gt;The movement food &lt;li&gt;The intestines&lt;/ol&gt;" data-html="true"><i class="ion-android-menu"></i></a></div>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1">
+          <div class="module">
+            <h3 class="block-title__session">Overview</h3>
+            <p>Many individuals with IBS become highly suspicious of what they eat due to its perceived or actual impact on their gastrointestinal symptoms. Around one-third of individuals diagnosed with IBS are likely to experience a least one form of food intolerance.</p>
+            <div class="illustration"><img src="https://i.pinimg.com/564x/e8/fe/81/e8fe818d80b15f0f52a1111dbbe07db1.jpg" width="300px" alt=""/></div>
+          </div>
+          <div class="fixed-bottom module__player text-center">
+            <div class="progress">
+              <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="module__controller">
+              <button class="btn btn-outline-secondary module__btnBackward"><i class="ion-ios-skipbackward"></i></button>
+              <button class="btn btn-outline-secondary module__btnPlay"><a href="view-module-done.html"><i class="ion-ios-play"></i></a></button>
+              <button class="btn btn-outline-secondary module__btnForward"><i class="ion-ios-skipforward"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    $(function () {
+    $('[data-toggle="popover"]').popover()
+    });
+  </script>
+</html>

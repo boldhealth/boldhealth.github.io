@@ -1,0 +1,120 @@
+
+<html>
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+      <link rel="stylesheet" href="css/style.css"/>
+      <script src="js/global.js"></script>
+      <script type="application/javascript" src="js/jquery.nice-select.js"></script>
+      <script type="application/javascript" src="js/initialize.js"></script>
+      <link rel="stylesheet" href="css/nice-select.css"/>
+      <link rel="stylesheet" href="css/custom-checbox.css"/>
+      <link rel="stylesheet" href="css/customs/radio.css"/>
+      <link rel="stylesheet" href="css/responsive.css"/>
+    <link rel="stylesheet" type="text/css" href="css/diary.css"/>
+  </head>
+  <body>
+      <div class="container-fluid">
+        <nav class="navbar header-nav navbar-expand-lg navbar-toggleable-lg navbar-light bg-light">
+          <div class="row"><a class="nav-link" href="diary-calendar.html"><i class="ion-android-arrow-back navbar__btnArrowBack"></i><span class="navbar__pageTitle">Write on Diary</span></a></div>
+        </nav>
+      </div>
+    <div class="container">
+      <div class="col-lg-6 offset-lg-3">
+        <div class="addDiary">
+          <form class="addDiary__form">
+            <div class="form-row">
+              <div class="media"><span class="block-title__number">1</span></div>
+              <div class="media-body">
+                <label>When did you felt the pain?</label>
+                <select class="form-control">
+                  <option>Select when</option>
+                  <option>Morning</option>
+                  <option>Afternoon</option>
+                  <option>Evening</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="media"><span class="block-title__number">2</span></div>
+              <div class="media-body">
+                <label>Do you have menstruation today?</label>
+                <div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" id="yes" type="radio" name="yesNoOption"/>
+                    <label for="yes">Yes</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" id="no" type="radio" name="yesNoOption"/>
+                    <label for="no">No</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="media"><span class="block-title__number">3</span></div>
+              <div class="media-body">
+                <label>How long the pain lasted?</label>
+                <div class="row">
+                  <div class="col-xs-12 col-md-12">
+                    <select class="col-md-6 form-control">
+                      <option>Hour</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5											</option>
+                    </select>
+                    <select class="col-md-6 form-control">
+                      <option>Minutes</option>
+                      <option>5</option>
+                      <option>10</option>
+                      <option>15</option>
+                      <option>20</option>
+                      <option>25</option>
+                      <option>30</option>
+                      <option>35</option>
+                      <option>40</option>
+                      <option>45</option>
+                      <option>50</option>
+                      <option>55</option>
+                      <option>60</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="media"><span class="block-title__number">4</span></div>
+              <div class="media-body">
+                <label>What did you ate?</label>
+                <select class="form-control"></select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="media"><span class="block-title__number">5</span></div>
+              <div class="media-body">
+                <label>What is your activity?</label>
+                <select class="form-control">
+                  <option>Jogging</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="media"><span class="block-title__number">5</span></div>
+              <div class="media-body">
+                <label>Additional Note</label>
+                <input class="form-control" type="text"/>
+              </div>
+            </div><a class="btn btn-primary float-right" href="#">Save</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+
+<html>
+  <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+      <link rel="stylesheet" href="css/style.css"/>
+      <script src="js/global.js"></script>
+  </head>
+  <body>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 col-lg-12">
+            <nav class="navbar navbar-expand-lg navbar-toggleable-lg navbar-light bg-light">
+              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><a class="navbar-brand" href="index.html">
+                <h2>bold</h2></a>
+              <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item"><a class="btn btn-outline-secondary" href="talk-to-elle.html"><i class="ion-android-person"></i><span>Talk to Elle</span></a></li>
+                  <li class="nav-item"><a class="btn btn-outline-secondary" data-toggle="modal" data-target="#rescueMode"><i class="ion-help-buoy"></i><span>&nbsp;</span></a></li>
+                </ul>
+                <ul class="navbar-nav ml-auto links">
+                  <li class="nav-item"><a class="nav-link" href="#">Practice</a></li>
+                  <li class="nav-item"><a class="nav-link" data-toggle="modal" data-target="#sessionLocked">Session <span class="links__progress"> 80% </span></a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">My Diary</a></li>
+                  <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="ion-android-person links__account"></i></a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="#">Progress</a><a class="dropdown-item" href="#">Community</a><a class="dropdown-item" href="#">Help</a><a class="dropdown-item" href="#">Settings									</a><a class="dropdown-item" href="#">Logout</a></div>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+            <div class="modal fade" id="rescueMode" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Rescue Modal</h5>
+                  </div>
+                  <div class="modal-body">
+                    <p>Hello Elena, you are in panic mode. Please select method to help you with your pain</p><a class="btn btn-outline-primary btn-lg col-md-12" href="#">Hypno Relief</a><a class="btn btn-outline-primary btn-lg col-md-12" href="#">Breathing Relief</a><a class="btn btn-outline-primary btn-lg col-md-12" href="#">Journal Relief</a><br/><a class="btn btn-outline-secondary col-md-6 float-right">Nevermind, I'm better now.</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="sessionLocked" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-body"><img src="http://via.placeholder.com/200x200" alt=""/>
+                    <h3>Next Session Will Be <span>On March 23</span></h3>
+                    <p>We see that you want to proceed on new module, but the next session will be on March 23</p>
+                    <div><a class="btn btn-outline-secondary col-md-6 float-right" href="modules.html">Got to Modules</a><a class="btn btn-outline-secondary col-md-6 float-right">Got It</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    <div class="container">
+      <div class="row"></div>
+    </div>
+  </body>
+</html>
