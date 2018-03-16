@@ -1,0 +1,107 @@
+body {
+  background: #fff;
+  margin: auto -16px;
+  font-family: Karla-Regular, Heveltical-Neue, Arial;
+  color: #72799A; }
+
+.btn-primary {
+  background: #AD98E3;
+  border-radius: 4px;
+  border: none;
+  padding: 16px 40px; }
+
+.btn-outline-secondary {
+  border-radius: 4px; }
+
+.header-nav {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0 2px 60px 0 rgba(114, 121, 154, 0.24);
+  box-shadow: 0 2px 60px 0 rgba(114, 121, 154, 0.24); }
+
+.navbar {
+  margin-bottom: 24px; }
+  .navbar__btnArrowBack {
+    font-size: 21px;
+    color: #797F9F;
+    letter-spacing: 8.51px;
+    line-height: 33px;
+    margin-right: 32px; }
+  .navbar__pageTitle {
+    display: inline-block;
+    font-family: Karla-Regular, Heveltical-Neue, Arial;
+    font-size: 21px;
+    color: #332E5B;
+    letter-spacing: -0.59px; }
+
+.fixed-bottom {
+  border-bottom: solid 1px #DDDEE4;
+  margin-bottom: 40px; }
+  .fixed-bottom .label {
+    display: inline-block;
+    font-family: Karla-Bold;
+    font-size: 21px;
+    color: #C2C3CB;
+    letter-spacing: -0.59px; }
+  .fixed-bottom i {
+    font-size: 21px;
+    color: #C2C3CB;
+    letter-spacing: 8.51px;
+    line-height: 33px; }
+  .fixed-bottom .navbar-toggler {
+    border: none; }
+
+.footer {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0 -19px 55px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 -19px 55px 0 rgba(0, 0, 0, 0.15);
+  margin-bottom: 0; }
+  .footer ul li {
+    display: inline; }
+  .footer i {
+    text-align: center;
+    border-radius: 40px;
+    background: #EFEFF1;
+    height: 28px;
+    width: 28px;
+    display: inline-block;
+    padding-top: 4px;
+    padding-left: 8px; }
+  .footer .label {
+    font-size: 11px;
+    text-transform: uppercase; }
+
+.navbar-brand h2 {
+  color: #AD98E3; }
+
+.content {
+  background: #FFFFFF;
+  border-radius: 6px;
+  margin: 32px; }
+
+.containerWithShadow {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0 2px 19px 0 rgba(0, 0, 0, 0.07);
+  box-shadow: 0 2px 19px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 7px; }
+
+.sidebar {
+  background: #FFFFFF;
+  -webkit-box-shadow: -8px 20px 44px 0 rgba(51, 45, 98, 0.06);
+  box-shadow: -8px 20px 44px 0 rgba(51, 45, 98, 0.06);
+  padding-left: 24px;
+  height: 1000px; }
+
+.block-title__form {
+  opacity: 0.6;
+  font-family: Karla-Regular, Heveltical-Neue, Arial;
+  font-size: 21px;
+  color: #332D62;
+  letter-spacing: 0.43px;
+  font-weight: bold; }
+
+.block-title__bar {
+  height: 68px;
+  padding-top: 24px; }
+
+.block-title__number {
+  margin-right: 16px; }
