@@ -1,0 +1,199 @@
+.about {
+  background-image: url(images/about__bgMobile.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat; }
+
+.navbar {
+  margin-bottom: 0; }
+
+.about__pageTitle {
+  padding-bottom: 160px;
+  padding-top: 80px; }
+
+.navbar {
+  border-bottom: 1px solid #E4E3EA;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+.title {
+  background-size: cover;
+  background-position: bottom; }
+
+img {
+  border-radius: 500px; }
+
+.about__title {
+  color: #322C5F;
+  letter-spacing: 4.19px;
+  text-align: center; }
+
+.about__subtitle {
+  opacity: 0.54;
+  font-size: 21px;
+  color: #322C5F;
+  letter-spacing: -0.39px;
+  text-align: center;
+  line-height: 29px; }
+
+.story {
+  background: #A3DCDE;
+  padding: 20px;
+  padding-bottom: 100px;
+  padding-top: 48px; }
+  .story__title {
+    font-size: 28px;
+    color: #322C5F;
+    letter-spacing: 2.61px;
+    font-weight: bold; }
+  .story__text {
+    font-size: 15px;
+    color: #322C5F;
+    letter-spacing: 0.22px;
+    line-height: 34px; }
+  .story__photo {
+    position: absolute;
+    border-radius: 12px;
+    width: 80%; }
+
+.advisors {
+  margin-top: 304px; }
+  .advisors__title {
+    margin-bottom: 48px; }
+
+.advisor {
+  margin-bottom: 20px; }
+  .advisor__pic {
+    margin-bottom: 28px; }
+  .advisor__name {
+    font-family: Karla-Regular;
+    font-size: 20px;
+    color: #322C5F;
+    letter-spacing: 0.77px;
+    text-align: center;
+    line-height: 24px; }
+  .advisor__title {
+    opacity: 0.5;
+    font-family: Karla-Regular;
+    font-size: 14px;
+    color: #322C5F;
+    letter-spacing: 0.77px;
+    text-align: center;
+    line-height: 24px; }
+
+.team {
+  margin-top: 152px; }
+  .team__title {
+    margin-bottom: 48px; }
+  .team .member {
+    margin-bottom: 20px; }
+    .team .member__pic {
+      margin-bottom: 28px; }
+    .team .member__name {
+      font-size: 17px;
+      color: #322C5F;
+      letter-spacing: 0.82px;
+      text-align: center;
+      line-height: 24px; }
+    .team .member__title {
+      opacity: 0.5;
+      font-size: 15px;
+      color: #322C5F;
+      letter-spacing: 0.82px;
+      line-height: 24px; }
+
+.values {
+  margin-top: 128px; }
+  .values ul {
+    list-style-image: url(images/about__bullet.png); }
+    .values ul li {
+      font-size: 17px;
+      color: #6E6699;
+      letter-spacing: 0.08px;
+      line-height: 29px; }
+  .values__value {
+    margin-bottom: 30px; }
+    .values__value img {
+      margin-right: 30px; }
+
+@media (min-width: 1400px) {
+  .block-title__section {
+    font-size: 41px;
+    color: #322C5F;
+    letter-spacing: -0.51px;
+    text-align: center;
+    line-height: 47px;
+    font-weight: normal;
+    margin-bottom: 54px; }
+  .about__title {
+    font-family: Karla-Regular;
+    font-size: 69px;
+    color: #322C5F;
+    letter-spacing: 2.71px;
+    text-align: left; }
+  .about__subtitle {
+    opacity: 0.54;
+    font-family: Karla-Regular;
+    font-size: 28px;
+    color: #322C5F;
+    letter-spacing: -0.53px;
+    line-height: 37px;
+    text-align: left; }
+  .story__title {
+    font-size: 52px;
+    color: #322C5F;
+    letter-spacing: -0.62px;
+    line-height: 47px; }
+  .advisors .block-title__section {
+    margin-top: 240px; }
+  .team__secTitle {
+    margin-top: 232px; }
+  .values {
+    margin-bottom: 148px; } }
+
+@media (min-width: 1400px) {
+  .about {
+    background-image: url(images/about__bg1440.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom; } }
+
+@media (min-width: 760px) and (max-width: 800px) {
+  .about__title {
+    font-size: 44px; }
+  .about__subtitle {
+    font-size: 20px;
+    line-height: 44px; }
+  .story {
+    padding-top: 38px;
+    padding-bottom: 300px; }
+    .story__title {
+      font-size: 44px; }
+    .story__text {
+      font-size: 15px;
+      line-height: 38px; }
+    .story__photo {
+      width: 85%; }
+  .block_title__section {
+    font-size: 30px;
+    margin-bottom: 38px; }
+  .advisors__title {
+    margin-bottom: 38px;
+    margin-top: -100px; }
+  .advisor {
+    margin-bottom: 75; }
+  .team {
+    padding-top: 192px; }
+    .team__title {
+      margin-bottom: 38px; }
+    .team .member__name {
+      font-size: 20px;
+      margin-bottom: 0px; }
+    .team .member__title {
+      font-size: 15px; }
+    .team__title {
+      margin-bottom: 38px; }
+    .team h5 {
+      margin-top: 12px; }
+  .gift {
+    margin-top: 45px; } }

@@ -1,0 +1,139 @@
+.pageTitle {
+  height: 400px; }
+
+.hero {
+  margin-bottom: 70px;
+  padding-left: 18px;
+  padding-top: 80px;
+  background-image: url(images/__scienceHero.png);
+  background-size: cover;
+  background-position: bottom;
+  height: 480px; }
+  .hero__title {
+    margin-top: 64px;
+    font-size: 47px;
+    color: #332D62;
+    letter-spacing: -0.39px;
+    line-height: 50px;
+    font-weight: bold; }
+  .hero__sub {
+    font-size: 17px;
+    color: #332D62;
+    letter-spacing: 0.2px;
+    line-height: 28px; }
+
+.slides__title {
+  font-size: 30px;
+  color: #332D62;
+  letter-spacing: -0.26px;
+  line-height: 56px; }
+
+.slides__info {
+  font-size: 17px;
+  color: #332D62;
+  letter-spacing: 0.5px;
+  line-height: 23px; }
+
+.references {
+  background: #4F4B78;
+  padding: 30px;
+  padding-bottom: 50px; }
+  .references .block-title__section {
+    font-size: 37px;
+    color: #FFFFFF;
+    letter-spacing: -0.33px;
+    line-height: 56px; }
+
+.reference {
+  margin-bottom: 46px; }
+  .reference__number {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 3px solid #fff;
+    border-radius: 56px;
+    text-align: center;
+    margin-right: 32px;
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: -0.24px; }
+  .reference__title {
+    font-size: 22px;
+    color: #fff;
+    letter-spacing: -0.16px; }
+  .reference__download {
+    border: 1px solid #fff;
+    color: #fff; }
+  .reference__answer {
+    opacity: 0.5;
+    font-family: Karla-Regular;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: -0.07px;
+    line-height: 20px; }
+
+@media (min-width: 1400px) {
+  .hero {
+    margin-bottom: 70px;
+    padding-left: 18px;
+    padding-top: 80px;
+    background-image: url(images/__scienceHero.png);
+    background-size: cover;
+    background-position: bottom;
+    height: 940px; }
+    .hero__title {
+      font-size: 125px;
+      color: #332D62;
+      letter-spacing: -1.04px;
+      line-height: 111px;
+      margin-top: 220px;
+      font-weight: normal; }
+    .hero__sub {
+      font-size: 22px;
+      color: #332D62;
+      letter-spacing: 0.5px;
+      line-height: 37px; }
+  .slides {
+    margin-bottom: 200px; }
+    .slides__title {
+      font-size: 43px;
+      color: #332D62;
+      letter-spacing: -0.38px;
+      line-height: 56px;
+      margin-top: 160px; }
+    .slides__info {
+      font-size: 17px;
+      color: #332D62;
+      letter-spacing: 0.5px;
+      line-height: 25px; }
+  .references {
+    padding-top: 160px;
+    background: #4F4B78;
+    padding-bottom: 225px; }
+    .references .block-title__section {
+      font-size: 63px;
+      color: #FFFFFF;
+      letter-spacing: -0.55px;
+      line-height: 56px;
+      margin-bottom: 64px; }
+    .references__list {
+      margin-left: 140px; }
+  .reference {
+    margin-bottom: 68px; }
+    .reference__number {
+      display: inline-block;
+      height: 40px;
+      width: 40px;
+      border: 3px solid #fff;
+      border-radius: 56px;
+      text-align: center;
+      margin-right: 32px;
+      font-size: 24px;
+      color: #fff;
+      letter-spacing: -0.24px; } }
+
+@media (min-width: 760px) and (max-width: 800px) {
+  .information {
+    margin-top: 152px; }
+  .slides {
+    margin-bottom: 38px; } }

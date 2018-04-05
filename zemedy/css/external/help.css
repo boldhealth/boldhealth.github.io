@@ -1,0 +1,50 @@
+.pageTitle {
+  background: #352F60;
+  padding-top: 0;
+  height: auto;
+  margin-bottom: 40px; }
+  .pageTitle__title {
+    margin-top: 0px;
+    font-size: 42px;
+    color: #FFFFFF;
+    letter-spacing: -0.66px;
+    padding: 40px 0px; }
+
+.questions {
+  padding-bottom: 100px; }
+  .questions__txtSearch {
+    height: 56px;
+    padding-left: 64px; }
+  .questions__icoSearch {
+    position: absolute;
+    font-size: 24px;
+    top: 16px;
+    left: 40px; }
+
+.search {
+  margin-bottom: 40px; }
+
+.question__number {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border: 3px solid #AC97E3;
+  border-radius: 56px;
+  text-align: center;
+  margin-right: 32px;
+  font-size: 24px;
+  color: #AC97E3;
+  letter-spacing: -0.24px; }
+
+.question__title {
+  font-size: 22px;
+  color: #6E6699;
+  letter-spacing: -0.16px; }
+
+.question__answer {
+  opacity: 0.5;
+  font-family: Karla-Regular;
+  font-size: 16px;
+  color: #322C5F;
+  letter-spacing: -0.07px;
+  line-height: 20px; }

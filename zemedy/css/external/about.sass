@@ -1,0 +1,235 @@
+@import ../global.sass
+
+.about
+	background-image: url(images/about__bgMobile.jpg);
+	+backgroundCover
+
+.navbar
+	margin-bottom: 0
+.about__pageTitle
+	padding-bottom: 160px
+	padding-top: 80px
+
+.navbar
+	border-bottom: 1px solid #E4E3EA
+	box-shadow: none
+
+.title
+	//background-image: url(images/about__heroBG.png)
+	background-size: cover;
+	background-position: bottom
+
+img
+	border-radius: 500px
+
+.about
+	&__title
+		color: #322C5F;
+		letter-spacing: 4.19px;
+		text-align: center;
+	&__subtitle
+		opacity: 0.54;
+		font-size: 21px;
+		color: #322C5F;
+		letter-spacing: -0.39px;
+		text-align: center;
+		line-height: 29px;
+
+.story
+	background: #A3DCDE;
+	padding: 20px
+	padding-bottom: 100px
+	padding-top: 48px
+
+	&__title
+		font-size: 28px;
+		color: #322C5F;
+		letter-spacing: 2.61px;
+		font-weight: bold
+
+	&__text
+		font-size: 15px;
+		color: #322C5F;
+		letter-spacing: 0.22px;
+		line-height: 34px;
+	&__photo
+		position: absolute
+		border-radius: 12px
+		//margin-top: 90px
+		width: 80%
+
+
+.advisors
+	margin-top: 304px
+
+	&__title
+		margin-bottom: 48px
+
+.advisor
+	margin-bottom: 20px
+	&__pic
+		margin-bottom: 28px
+	&__name
+		font-family: Karla-Regular;
+		font-size: 20px;
+		color: #322C5F;
+		letter-spacing: 0.77px;
+		text-align: center;
+		line-height: 24px;
+	&__title
+		opacity: 0.5;
+		font-family: Karla-Regular;
+		font-size: 14px;
+		color: #322C5F;
+		letter-spacing: 0.77px;
+		text-align: center;
+		line-height: 24px;
+
+.team
+	margin-top: 152px;
+	&__title
+		margin-bottom: 48px
+	.member
+		margin-bottom: 20px
+		&__pic
+			margin-bottom: 28px
+		&__name
+			font-size: 17px;
+			color: #322C5F;
+			letter-spacing: 0.82px;
+			text-align: center;
+			line-height: 24px;
+		&__title
+			opacity: 0.5;
+			font-size: 15px;
+			color: #322C5F;
+			letter-spacing: 0.82px;
+			line-height: 24px;
+
+.values
+	margin-top: 128px
+	ul
+		list-style-image: url(images/about__bullet.png)
+		li
+			font-size: 17px;
+			color: #6E6699;
+			letter-spacing: 0.08px;
+			line-height: 29px;
+
+	&__value
+		margin-bottom: 30px
+		img
+			margin-right: 30px
+
+
+@media (min-width: 1400px)
+
+	.block-title__section
+		font-size: 41px;
+		color: #322C5F;
+		letter-spacing: -0.51px;
+		text-align: center;
+		line-height: 47px;
+		font-weight: normal
+		margin-bottom: 54px
+	.about
+
+		&__title
+			font-family: Karla-Regular;
+			font-size: 69px;
+			color: #322C5F;
+			letter-spacing: 2.71px;
+			text-align: left
+
+
+		&__subtitle
+			opacity: 0.54;
+			font-family: Karla-Regular;
+			font-size: 28px;
+			color: #322C5F;
+			letter-spacing: -0.53px;
+			line-height: 37px;
+			text-align: left;
+
+	.story
+		&__title
+			font-size: 52px;
+			color: #322C5F;
+			letter-spacing: -0.62px;
+			line-height: 47px;
+
+
+	.advisors
+		.block-title__section
+			margin-top: 240px
+
+	.team
+		&__secTitle
+			margin-top: 232px
+	.values
+		margin-bottom: 148px
+
+
+@media (min-width: 1400px)
+	.about
+		background-image: url(images/about__bg1440.jpg);
+		background-repeat: no-repeat
+		background-size: cover
+		background-position: bottom
+
+
+@media (min-width: 760px) and (max-width: 800px)
+
+
+
+	.about
+		&__title
+			font-size: 44px
+		&__subtitle
+			font-size: 20px
+			line-height: 44px
+
+	.story
+		padding-top: 38px
+		padding-bottom: 300px
+		&__title
+			font-size: 44px
+		&__text
+			font-size: 15px
+			line-height: 38px
+
+		&__photo
+			width: 85%
+
+
+	.block_title__section
+		font-size: 30px
+		margin-bottom: 38px
+
+	.advisors
+		&__title
+			margin-bottom: 38px
+			margin-top: -100px
+	.advisor
+		margin-bottom: 75
+
+	.team
+		padding-top: 192px
+
+		&__title
+			margin-bottom: 38px
+
+		.member
+			&__name
+				font-size: 20px
+				margin-bottom: 0px
+			&__title
+				font-size: 15px
+		&__title
+			margin-bottom: 38px
+
+		h5
+			margin-top: 12px
+
+	.gift
+		margin-top: 45px

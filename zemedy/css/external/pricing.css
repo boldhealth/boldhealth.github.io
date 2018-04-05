@@ -1,0 +1,246 @@
+.header-nav {
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+/* Rectangle 4: */
+.plan {
+  border: 1px solid #E4E3EA;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  padding: 16px;
+  margin-bottom: 16px; }
+  .plan__title {
+    font-size: 24px;
+    color: #6E6699;
+    letter-spacing: 0.29px;
+    font-weight: bold; }
+  .plan__price {
+    margin-bottom: 140px;
+    font-size: 38px;
+    color: #6E6699;
+    letter-spacing: 0.29px;
+    font-size: 15px;
+    color: #352F60;
+    letter-spacing: 0.57px;
+    font-weight: bold; }
+  .plan__details {
+    margin-top: -80px;
+    font-size: 12px; }
+
+.priceTable {
+  background: #352F60;
+  padding-bottom: 16px;
+  margin-bottom: -180px; }
+  .priceTable__title {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 28px;
+    color: #FFFFFF;
+    letter-spacing: -0.28px;
+    margin-bottom: 32px; }
+
+.pricing {
+  background: #fff;
+  padding-top: 30px;
+  margin: 0px;
+  -webkit-box-shadow: -18px 76px 78px 0 rgba(0, 0, 0, 0.45);
+  box-shadow: -18px 76px 78px 0 rgba(0, 0, 0, 0.45);
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  padding-bottom: 20px;
+  margin-bottom: 20px; }
+  .pricing__table {
+    padding: 0;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0 35px 51px 0 rgba(0, 0, 0, 0.17);
+    box-shadow: 0 35px 51px 0 rgba(0, 0, 0, 0.17);
+    margin-bottom: 200px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    background-clip: padding-box;
+    /* stops bg color from leaking outside the border: */ }
+    .pricing__table ul li {
+      margin-bottom: 24px; }
+
+.price {
+  border-radius: 8px; }
+  .price__title {
+    background-color: #352F60;
+    padding: 30px 30px;
+    -webkit-border-radius: 12px 0px 0px 12px;
+    border-radius: 12px 0px 0px 12px;
+    background-clip: padding-box;
+    /* stops bg color from leaking outside the border: */
+    padding-top: 80px; }
+  .price__sub {
+    opacity: 0.5;
+    font-size: 26px;
+    color: #FFFFFF;
+    letter-spacing: 1px; }
+  .price__price {
+    font-family: Karla-Regular;
+    font-size: 52px;
+    color: #FFFFFF;
+    letter-spacing: 0.23px; }
+  .price__inclusion {
+    background-color: #fff;
+    padding: 60px;
+    -webkit-border-radius: 0px 12px 12px 0px;
+    border-radius: 0px 12px 12px 0px;
+    background-clip: padding-box;
+    /* stops bg color from leaking outside the border: */ }
+  .price__incList {
+    margin-bottom: 24px; }
+    .price__incList i {
+      margin-right: 24px; }
+  .price__icoCheck {
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+    border: 2px solid #A3DCDE;
+    border-radius: 100px;
+    font-size: 18px;
+    color: #A3DCDE;
+    letter-spacing: 0.06px;
+    line-height: 20.5px;
+    text-align: center;
+    padding-top: 8px; }
+
+.inclusion__title {
+  font-family: Karla-Regular;
+  font-size: 25px;
+  color: #6E6699;
+  letter-spacing: -0.26px; }
+
+.faqs {
+  background: #fff;
+  padding-top: 50px; }
+
+.question__number {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border: 3px solid #AC97E3;
+  border-radius: 56px;
+  text-align: center;
+  margin-right: 32px;
+  font-size: 24px;
+  color: #AC97E3;
+  letter-spacing: -0.24px; }
+
+.question__title {
+  font-size: 22px;
+  color: #6E6699;
+  letter-spacing: -0.16px; }
+
+.question__answer {
+  opacity: 0.5;
+  font-family: Karla-Regular;
+  font-size: 16px;
+  color: #322C5F;
+  letter-spacing: -0.07px;
+  line-height: 20px; }
+
+.paymentForm__secureLabel {
+  background: #D5DEF6;
+  border-radius: 4px;
+  font-size: 15px;
+  color: #7190E0;
+  letter-spacing: 0.15px;
+  font-weight: bold;
+  padding: 8px;
+  padding-left: 16px;
+  margin-bottom: 28px; }
+
+.paymentBody {
+  background-image: -webkit-linear-gradient(238deg, #352F60 0%, #6E6699 100%);
+  background-image: -o-linear-gradient(238deg, #352F60 0%, #6E6699 100%);
+  background-image: linear-gradient(-148deg, #352F60 0%, #6E6699 100%); }
+  .paymentBody .faqs {
+    margin-top: 550px;
+    padding-top: 160px;
+    padding-bottom: 20px; }
+
+.payment__form, .pricing__table {
+  padding: 24px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0 35px 51px 0 rgba(0, 0, 0, 0.17);
+  box-shadow: 0 35px 51px 0 rgba(0, 0, 0, 0.17);
+  border-radius: 7px;
+  position: absolute;
+  top: 180px;
+  margin-bottom: 200px; }
+  .payment__form__secureLabel, .pricing__table__secureLabel {
+    font-size: 15px;
+    color: #7190E0;
+    letter-spacing: 0.15px; }
+
+.pricing__table {
+  padding: 0; }
+
+.faqs {
+  padding-bottom: 20px; }
+
+@media (min-width: 1400px) {
+  .priceTable {
+    padding-bottom: 40px;
+    margin-bottom: -180px; }
+    .priceTable__title {
+      text-align: center;
+      padding-top: 40px;
+      font-size: 48px;
+      color: #FFFFFF;
+      letter-spacing: -0.28px;
+      margin-bottom: 32px; }
+  .price {
+    background-image: url(images/pricing__bg1440.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 100px; }
+    .price__price {
+      padding-top: 80px;
+      font-size: 62px;
+      font-weight: bold; }
+  .pricing {
+    padding: 40px; }
+    .pricing__pageTitle {
+      margin-top: 100px;
+      font-size: 48px;
+      margin-bottom: 56px; }
+  .price__title {
+    height: 550px; }
+  .plan {
+    padding: 32px;
+    background: #FFFFFF; }
+    .plan__title {
+      font-size: 38px; }
+    .plan__price {
+      font-size: 24px; }
+    .plan__btnSubscribe {
+      margin-top: 64px; }
+  .faqs {
+    margin-top: 105px; }
+    .faqs .questions {
+      margin-bottom: 230px; }
+    .faqs .block-title__section {
+      text-align: center;
+      font-size: 41px;
+      color: #322C5F;
+      letter-spacing: -0.51px;
+      text-align: center;
+      line-height: 47px;
+      margin-bottom: 80px; } }
+
+@media (min-width: 760px) and (max-width: 800px) {
+  .priceTable {
+    background: #352F60;
+    padding-bottom: 32px; }
+  .pricing {
+    padding: 40px; }
+    .pricing .plan {
+      margin-bottom: 46px; } }

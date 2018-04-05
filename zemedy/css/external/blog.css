@@ -1,0 +1,90 @@
+body {
+  background: #eee; }
+
+.navbar {
+  z-index: 1;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+.pageTitle {
+  height: auto;
+  background: #fff;
+  -webkit-box-shadow: 0 2px 41px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 41px 0 rgba(0, 0, 0, 0.12);
+  background: url("images/__blogTitleBg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom; }
+  .pageTitle__title {
+    font-weight: normal; }
+
+.nav-tabs .nav-item .nav-link {
+  color: #352F60;
+  opacity: 0.3; }
+
+.nav-tabs .nav-item .active {
+  border: none;
+  background: none;
+  opacity: 1; }
+
+.entry {
+  background: #FFFFFF;
+  -webkit-box-shadow: -8px 20px 44px 0 rgba(51, 45, 98, 0.08);
+  box-shadow: -8px 20px 44px 0 rgba(51, 45, 98, 0.08);
+  border-radius: 8px;
+  margin-bottom: 24px; }
+  .entry__title {
+    font-family: Karla-Regular;
+    font-size: 26px;
+    color: #322C5F;
+    letter-spacing: 0.82px;
+    line-height: 36px; }
+  .entry__author {
+    opacity: 0.5;
+    font-family: Karla-Regular;
+    font-size: 16px;
+    color: #6E6699;
+    letter-spacing: -0.17px;
+    line-height: 25px; }
+  .entry__snippet {
+    font-family: Karla-Regular;
+    font-size: 14px;
+    color: #6E6699;
+    letter-spacing: 0.43px;
+    line-height: 25px; }
+  .entry__details {
+    padding: 24px; }
+  .entry__thumbnail {
+    border-radius: 8px 8px 0px 0px; }
+
+.viewBlog {
+  background: #fff; }
+  .viewBlog .navbar {
+    margin-bottom: 90px; }
+  .viewBlog .__thumbnail {
+    border-radius: none; }
+
+.blogContent .title {
+  border-bottom: 4px solid #E4E3EA;
+  margin-bottom: 20px; }
+
+.blogContent__title {
+  font-family: Alegreya-Italic;
+  font-size: 62px;
+  color: #6E6699;
+  letter-spacing: -1.38px;
+  line-height: 70px; }
+
+.blogContent__author {
+  font-size: 14px;
+  color: #6E6699;
+  text-transform: uppercase;
+  letter-spacing: 2.43px;
+  line-height: 42px; }
+
+.blogContent__para {
+  font-family: Athelas-Regular;
+  font-size: 18px;
+  color: #6E6699;
+  letter-spacing: -0.72px;
+  line-height: 29px; }

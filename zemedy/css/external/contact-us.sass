@@ -1,0 +1,57 @@
+@import '../global.sass'
+
+.navbar
+	border-bottom: 1px solid #E4E3EA
+	box-shadow: none
+body
+	background: white
+.block-title
+	&__pageTitle
+		font-size: 46px;
+		color: #6E6699;
+		letter-spacing: -1.97px;
+.contactUs
+	margin-top: 80px
+	padding-bottom: 172px
+.contactForm
+	&__txtEmail, &__slcSubject
+		+border-radius(8px);
+		margin-bottom: 24px
+
+	&__txtName
+		margin-bottom: 146px
+		+border-radius(8px);
+	&__txtMessage
+		+border-radius(8px);
+
+	textarea
+		+border-radius(8px);
+		margin-top: 100px
+	&__btnSend
+		margin-top: 40px
+	input[type="text"]
+		height: 58px
+		margin-bottom: 24px
+
+.otherWay
+	//padding-top: 60px
+	margin-bottom: 8px
+
+	&__map
+		margin-top: 60px
+		+border-radius(10px);
+
+	&__iconPhone, &__iconEmail
+		font-size: 21px;
+		color: #6E6699;
+		letter-spacing: 0.95px;
+		display: inline-block
+		height: 54px
+		width: 54px
+		border: 1px solid #332B64;
+		border-radius: 8px;
+		text-align: center
+		padding-top: 16px
+		margin-right: 16px
+	&__phone, &__map
+		margin-bottom: 20px

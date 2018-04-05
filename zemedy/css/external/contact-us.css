@@ -1,0 +1,73 @@
+.navbar {
+  border-bottom: 1px solid #E4E3EA;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+body {
+  background: white; }
+
+.block-title__pageTitle {
+  font-size: 46px;
+  color: #6E6699;
+  letter-spacing: -1.97px; }
+
+.contactUs {
+  margin-top: 80px;
+  padding-bottom: 172px; }
+
+.contactForm__txtEmail, .contactForm__slcSubject {
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  margin-bottom: 24px; }
+
+.contactForm__txtName {
+  margin-bottom: 146px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */ }
+
+.contactForm__txtMessage {
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */ }
+
+.contactForm textarea {
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  margin-top: 100px; }
+
+.contactForm__btnSend {
+  margin-top: 40px; }
+
+.contactForm input[type="text"] {
+  height: 58px;
+  margin-bottom: 24px; }
+
+.otherWay {
+  margin-bottom: 8px; }
+  .otherWay__map {
+    margin-top: 60px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-clip: padding-box;
+    /* stops bg color from leaking outside the border: */ }
+  .otherWay__iconPhone, .otherWay__iconEmail {
+    font-size: 21px;
+    color: #6E6699;
+    letter-spacing: 0.95px;
+    display: inline-block;
+    height: 54px;
+    width: 54px;
+    border: 1px solid #332B64;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 16px;
+    margin-right: 16px; }
+  .otherWay__phone, .otherWay__map {
+    margin-bottom: 20px; }
