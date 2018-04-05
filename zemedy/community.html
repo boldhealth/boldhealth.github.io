@@ -1,0 +1,218 @@
+
+<html>
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla"/>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" media="screen"/>
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+      <link rel="stylesheet" href="css/style.css"/>
+      <script src="js/global.js"></script>
+      <script type="application/javascript" src="js/jquery.nice-select.js"></script>
+      <script type="application/javascript" src="js/initialize.js"></script>
+      <link rel="stylesheet" href="css/nice-select.css"/>
+      <link rel="stylesheet" href="css/custom-checbox.css"/>
+      <link rel="stylesheet" href="css/customs/radio.css"/>
+      <link rel="stylesheet" href="css/responsive.css"/>
+      <link rel="stylesheet" href="css/ionicons.css" media="screen"/>
+        <div class="sidebar">
+          <div class="sidebar__account account"><img class="account__pic" src="https://s3.amazonaws.com/uifaces/faces/twitter/kerem/128.jpg" height="66px" width="66px"/><a class="btn btn-outline-secondary btnHideSidebar account__btnHideSidebar float-right"><span class="ion-close-round"></span></a>
+            <h4 class="account__name">John</h4><span class="account__email">john@bold.com</span>
+          </div>
+          <div class="sidebar__links">
+            <ul>
+              <li><span class="ion-stats-bars iconNav"></span><a href="progress-diary.html">Progress</a></li>
+              <li><span class="ion-chatbubbles iconNav"></span><a href="community.html">Community				</a></li>
+              <li><span class="ion-help-buoy iconNav"></span><a href="help.html">Help</a></li>
+              <li><span class="ion-ios-settings-strong iconNav"></span><a href="setting-account.html">Setting</a></li>
+              <li><span class="ion-ios-arrow-back iconNav"></span><a href="logout.html">Logout</a></li>
+            </ul>
+          </div>
+        </div>
+    <link rel="stylesheet" type="text/css" href="css/external.css"/>
+    <link rel="stylesheet" type="text/css" href="css/community.css"/>
+  </head>
+  <body>
+      <nav class="navbar header-nav header-external navbar-expand-lg navbar-toggleable-lg navbar-light col-12">
+        <div class="col-12"><img src="images/__logo.png" height="40px"/>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="landing.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="community.html">Community</a></li>
+              <li class="nav-item"><a class="nav-link" href="help.html">Help	</a></li>
+              <li class="nav-item"><a class="nav-link" href="login.html">Login					</a></li>
+              <li class="nav-item"><a class="btn btn-outline-secondary" href="pricing.html">Get Free Trial</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="pageTitle col-lg-12">
+          <div class="col-lg-12"></div>
+          <div class="details">
+            <h2 class="pageTitle__title">Community</h2>
+            <p class="pageTitle__subtitle">Improve your wellbeing and physical health with best-in-class behavioral and stress reduction techniques</p><a class="btn btn-outline-secondary btnCreateTopic" data-toggle="modal" data-target="#createTopic">Create Topic</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-9">
+          <div class="topics content">
+            <div class="topics__title">
+              <div class="row">
+                <h4 class="topics__title col-lg-8">Topics</h4>
+                <form class="col-lg-4">
+                  <div class="form-group">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-9 col-lg-8">
+                          <div class="search"><i class="search__icoSearch ion-ios-search"></i>
+                            <input class="form-control search__txtSearch" type="text" placeholder="Search Topic" required="required"/>
+                          </div>
+                        </div>
+                        <button class="btn btn-outline-secondary col-3 col-lg-4" href="#">Search</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <!--.form-group
+              select.form-control
+              	option Categories
+              
+              -->
+            </div>
+            <div class="topics__list">
+              <div class="topic">
+                <h3 class="topic__title"><a href="community-view-topic.html">Always Look On The Bright Side Of Life</a></h3>
+                <p>And what samples a impasse. General away and ran and decades framework could person, that and out stiff theory, his prosecution nor the and the to in himself and ocean. Allow how dragged officers. Of what full were absolutely found claim that's one the and in needed a go issued.</p><span class="topic__info topic__replies">3 Reply</span><span class="topic__info">340 Views</span>
+              </div>
+                            <div class="topic">
+                              <h3 class="topic__title"><a href="community-view-topic.html">Always Look On The Bright Side Of Life</a></h3>
+                              <p>And what samples a impasse. General away and ran and decades framework could person, that and out stiff theory, his prosecution nor the and the to in himself and ocean. Allow how dragged officers. Of what full were absolutely found claim that's one the and in needed a go issued.</p><span class="topic__info topic__replies">3 Reply</span><span class="topic__info">340 Views</span>
+                            </div>
+                            <div class="topic">
+                              <h3 class="topic__title"><a href="community-view-topic.html">Always Look On The Bright Side Of Life</a></h3>
+                              <p>And what samples a impasse. General away and ran and decades framework could person, that and out stiff theory, his prosecution nor the and the to in himself and ocean. Allow how dragged officers. Of what full were absolutely found claim that's one the and in needed a go issued.</p><span class="topic__info topic__replies">3 Reply</span><span class="topic__info">340 Views</span>
+                            </div>
+                            <div class="topic">
+                              <h3 class="topic__title"><a href="community-view-topic.html">Always Look On The Bright Side Of Life</a></h3>
+                              <p>And what samples a impasse. General away and ran and decades framework could person, that and out stiff theory, his prosecution nor the and the to in himself and ocean. Allow how dragged officers. Of what full were absolutely found claim that's one the and in needed a go issued.</p><span class="topic__info topic__replies">3 Reply</span><span class="topic__info">340 Views</span>
+                            </div>
+                            <div class="topic">
+                              <h3 class="topic__title"><a href="community-view-topic.html">Always Look On The Bright Side Of Life</a></h3>
+                              <p>And what samples a impasse. General away and ran and decades framework could person, that and out stiff theory, his prosecution nor the and the to in himself and ocean. Allow how dragged officers. Of what full were absolutely found claim that's one the and in needed a go issued.</p><span class="topic__info topic__replies">3 Reply</span><span class="topic__info">340 Views</span>
+                            </div>
+                            <div class="topic">
+                              <h3 class="topic__title"><a href="community-view-topic.html">Always Look On The Bright Side Of Life</a></h3>
+                              <p>And what samples a impasse. General away and ran and decades framework could person, that and out stiff theory, his prosecution nor the and the to in himself and ocean. Allow how dragged officers. Of what full were absolutely found claim that's one the and in needed a go issued.</p><span class="topic__info topic__replies">3 Reply</span><span class="topic__info">340 Views</span>
+                            </div>
+                            <div class="topic">
+                              <h3 class="topic__title"><a href="community-view-topic.html">Always Look On The Bright Side Of Life</a></h3>
+                              <p>And what samples a impasse. General away and ran and decades framework could person, that and out stiff theory, his prosecution nor the and the to in himself and ocean. Allow how dragged officers. Of what full were absolutely found claim that's one the and in needed a go issued.</p><span class="topic__info topic__replies">3 Reply</span><span class="topic__info">340 Views</span>
+                            </div>
+                            <div class="topic">
+                              <h3 class="topic__title"><a href="community-view-topic.html">Always Look On The Bright Side Of Life</a></h3>
+                              <p>And what samples a impasse. General away and ran and decades framework could person, that and out stiff theory, his prosecution nor the and the to in himself and ocean. Allow how dragged officers. Of what full were absolutely found claim that's one the and in needed a go issued.</p><span class="topic__info topic__replies">3 Reply</span><span class="topic__info">340 Views</span>
+                            </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-12">
+            <div class="olderPost float-left"><a class="btn btn-outline-secondary" href="#">Older Post</a></div>
+            <div class="newerPost float-right"><a class="btn btn-outline-secondary float-right" href="#">Newest Post</a></div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="categories content">
+            <h3 class="topics__title">Categories</h3>
+            <div class="listOfCategories">
+              <ul>
+                <li>Health<span class="categories__totalTopics">(230)</span></li>
+                <li>IBS<span class="categories__totalTopics">(46)</span></li>
+                <li>General Topics<span class="categories__totalTopics">(983)</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="footerNav">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3">
+                <h3 class="footerNav__title">Site Links</h3>
+                <ul>
+                  <li> <a href="pricing.html">Pricing</a></li>
+                  <li> <a href="science.html">Science</a></li>
+                  <li> <a href="terms.html">Terms of Use</a></li>
+                  <li> <a href="Blog.html">Blog</a></li>
+                  <li> <a href="press.html">Press</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3">
+                <h3 class="footerNav__title">Social Media</h3>
+                <ul>
+                  <li><a href=""><i class="ion-social-facebook footerNav__icoSocial"></i><span>Facebook</span></a></li>
+                  <li><a href=""><i class="ion-social-instagram-outline footerNav__icoSocial"></i><span>Instagram</span></a></li>
+                  <li><a href=""><i class="ion-social-twitter footerNav__icoSocial"></i><span>Twitter</span></a></li>
+                  <li><a href=""><i class="ion-social-linkedIn footerNav__icoSocial"></i><span>LinkedIn							</span></a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3">
+                <h3 class="footerNav__title">Site Links</h3>
+                <ul>
+                  <li><a href=""><i class="ion-android-call footerNav__icoSocial"></i><span>+234-444-444						</span></a></li>
+                  <li><a href=""><i class="ion-android-mail footerNav__icoSocial"></i><span>ask@bold.com						</span></a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3">
+                <h3 class="footerNav__title">Join our newsletter</h3>
+                <form class="newsletter">
+                  <div class="form-group">
+                    <input class="form-control newsletter__txtEmail" type="text" placeholder="Your Email" required="required"/>
+                    <button class="btn btn-outline-secondary newsletter__btnSubscribe" type="submit">Subscribe	</button>
+                  </div>
+                </form>
+              </div>
+              <hr/>
+              <div class="footer__copyright col-lg-12 text-center"><span>&copy; 2018 Zemedy. Made with 💕 in London.</span></div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>
+<div class="modal fade" id="createTopic" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Create New Topic</h5>
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label>Category</label>
+            <select class="form-control">
+              <option>Select</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Topic Title</label>
+            <input class="form-control" placeholder="Enter title"/>
+          </div>
+          <div class="form-group">
+            <label>What do you want to discuss about this topic?</label>
+            <textarea class="form-control" rows="4"></textarea>
+          </div><a class="btn btn-primary" href="#">Create Topic</a>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
