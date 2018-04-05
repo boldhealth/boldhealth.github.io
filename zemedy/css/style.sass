@@ -1,0 +1,292 @@
+@import global.sass
+
+$font-stack: Roboto, Karla-Regular, Heveltical-Neue, Arial
+
+body
+	background: #fff
+	//margin: auto -20px
+	//margin: auto -14px
+	//margin-left: -14px
+	//margin-right: -14px
+	padding-right: -100px
+	font-family: $font-stack
+	color: #72799A
+
+
+.row.no-gutters
+  margin-right: 0;
+  margin-left: 0;
+
+  & > [class^="col-"],
+  & > [class*=" col-"]
+    padding-right: 0;
+    padding-left: 0;
+
+
+.btn-primary
+	background: #AD98E3;
+	border-radius: 4px;
+	border: none
+	padding: 16px 40px
+
+.btn-outline-secondary
+	border-radius: 4px
+
+.header-nav
+	background: #FFFFFF;
+	box-shadow: 0 2px 60px 0 rgba(114,121,154,0.24);
+
+.navbar
+	margin-bottom: 24px
+	.navbar-brand
+		font-size: 31px;
+		letter-spacing: -1.19px;
+		text-align: center;
+		line-height: 36px;
+		font-weight: bold
+	&__btnArrowBack
+		font-size: 21px;
+		color: #797F9F;
+		letter-spacing: 8.51px;
+		line-height: 33px;
+		margin-right: 32px
+
+	&__pageTitle
+		display: inline-block
+		font-family: $font-stack;
+		font-size: 21px;
+		color: #332E5B;
+		letter-spacing: -0.59px;
+	#sidebarIcon
+		font-size: 26px
+.fixed-bottom
+	margin-left: -60px
+	padding-right: 0px
+	border-bottom: solid 1px #DDDEE4;
+	margin-bottom: 40px
+	.label
+		display: inline-block
+		font-size: 21px;
+		color: #C2C3CB
+		letter-spacing: -0.59px;
+		+karlaBold
+
+	i
+		font-size: 21px;
+		color: #C2C3CB;
+		letter-spacing: 8.51px;
+		line-height: 33px;
+
+	.navbar-toggler
+		border: none
+	ul
+		li
+			float: left
+
+
+.navbar
+	ul
+		margin: 0 auto
+		li
+			text-align: center
+			display: inline-block
+			margin-right: 0px
+			margin-left: 0px
+			margin-right: -10px
+
+
+input[type="text"], input[type="password"], input[type="email"]
+	height: 56px
+.footer
+	background: #FFFFFF;
+	box-shadow: 0 -19px 55px 0 rgba(0,0,0,0.15);
+	margin-bottom: 0
+	//margin-bottom: 20px
+	ul
+		li
+			display: inline;
+
+	i
+		text-align: center
+		border-radius: 40px
+		background: #EFEFF1
+		height: 28px
+		width: 28px
+		display: inline-block
+		padding-top: 4px
+		padding-left: 8px
+	.label
+		font-size: 10px
+		text-transform: uppercase
+		//letter-spacing: 0.5
+
+.navbar-brand
+	h2
+		color: #AD98E3
+
+.content
+	background: #FFFFFF;
+	border-radius: 6px;
+	margin: 32px
+
+.containerWithShadow
+	background: #FFFFFF;
+	box-shadow: 0 2px 19px 0 rgba(0,0,0,0.07);
+	border-radius: 7px;
+
+.sidebar
+	background: #FFFFFF;
+	box-shadow: -8px 20px 44px 0 rgba(51,45,98,0.06);
+	//padding-left: 24px
+	height: 1000px
+
+
+.block-title
+	&__form
+		opacity: 0.6;
+		font-family: $font-stack;
+		font-size: 21px;
+		color: #332D62;
+		letter-spacing: 0.43px;
+
+		font-weight: bold
+
+	&__bar
+		height: 68px
+		padding-top: 24px
+
+	&__number
+		margin-right: 16px
+
+.sidebar
+	z-index: 1
+	background: #FFFFFF;
+	box-shadow: 57px 2px 27px 0 rgba(0,0,0,0.17);
+	position: absolute
+	height: 1000px
+	width: 90%
+	margin-left: 0px
+
+
+
+	&__account
+		background: #AD98E3
+		padding-left: 40px
+		height: 214px
+
+	&__links
+		margin-top: 36px
+		ul
+			li
+				list-style-type: none
+				margin-bottom: 36px
+				.iconNav
+					font-family: Ionicons;
+					font-size: 23px;
+					color: #332D62;
+					letter-spacing: 4.03px;
+					text-align: center;
+					line-height: 31px;
+
+					border: 1px solid #E4E6EC;
+					border-radius: 6px;
+					display: inline-block
+					height: 36px
+					width: 36px
+					padding-top: 8px
+					padding-left: 4px
+					margin-right: 24px
+
+				a
+					font-family: Karla-Regular;
+					font-size: 15px;
+					color: #332D62;
+					letter-spacing: -0.32px;
+					text-decoration: none
+					margin-top: 8px
+					position: absolute
+
+.account
+	background-image: url(images/__sidebarBg.png);
+	background-size: cover
+	background-position: bottom
+
+	&__btnHideSidebar
+		margin-top: 24px
+		margin-right: 24px
+	&__pic
+		margin-top: 36px
+		border-radius: 80px
+		height: 66px;
+		width: 66px
+		margin-bottom: 22px
+	&__name
+		font-family: Karla-Bold;
+		font-size: 23px;
+		color: #332D62;
+		letter-spacing: -1.26px;
+		margin-bottom: -4px
+
+	&__email
+		opacity: 0.5;
+		font-family: Karla-Regular;
+		font-size: 15px;
+		color: #332D62;
+		letter-spacing: -0.32px;
+
+
+.footerNav
+	background-color: #352F60;
+	padding-top: 64px
+
+	&__title
+		font-size: 18px;
+		color: #AC97E3;
+		letter-spacing: 0.25px;
+	ul
+		li
+			list-style-type: none
+			margin-left: -40px
+			margin-bottom: 20px
+		a
+			font-size: 15px;
+			color: #FFFFFF;
+			letter-spacing: 0.25px;
+
+	&__icoSocial
+		display: inline-block
+		height: 24px
+		width: 24px
+		background: #656187
+		text-align: center
+		+border-radius(4px)
+		padding-top: 4px;
+		margin-right: 11px
+
+	.newsletter
+		&__txtEmail
+			height: 52px
+			background: none
+			color: #fff
+			opacity: 0.4
+			margin-bottom: 16px
+
+
+			&::placeholder
+				color: #fff
+		&__btnSubscribe
+			font-family: Karla-Regular;
+			font-size: 15px;
+			color: #A1DADC;
+			letter-spacing: 0.25px;
+			opacity: 0.3;
+			border: 1px solid #A1DADC;
+			border-radius: 6px;
+			height: 42px
+
+
+
+.header-external
+	ul
+		li
+			margin-left: 20px

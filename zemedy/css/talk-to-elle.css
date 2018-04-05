@@ -1,0 +1,98 @@
+body {
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+  padding: 24px; }
+
+.clearfix {
+  overflow: auto; }
+
+.talk__elle {
+  font-family: Karla-Regular;
+  font-size: 15px;
+  color: #66687C;
+  letter-spacing: 1.03px;
+  line-height: 31px; }
+
+.talk__convo {
+  height: 400px;
+  overflow: scroll; }
+
+.talk__user {
+  width: 100%;
+  font-family: Karla-Regular;
+  font-size: 15px;
+  color: #66687C;
+  letter-spacing: 1.03px;
+  line-height: 31px;
+  border-radius: 8px;
+  text-align: right;
+  padding: 28px;
+  padding-right: 8px;
+  padding-top: 8px;
+  margin-bottom: 20px;
+  float: right; }
+
+.talk__ellePic {
+  margin-right: 20px; }
+
+.talk__userPic {
+  margin-left: 20px;
+  border-radius: 80px; }
+
+.talk__bubble, .talk__bubble-user {
+  margin-bottom: 24px;
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid #DCDDE3;
+  border-radius: 8px;
+  width: auto;
+  padding: 8px;
+  background: #FFFFFF;
+  border: 1px solid #DDDEE4;
+  -webkit-box-shadow: 0 14px 39px 0 rgba(0, 0, 0, 0.09);
+  box-shadow: 0 14px 39px 0 rgba(0, 0, 0, 0.09);
+  border-radius: 8px; }
+
+.talk__chatPic {
+  margin-right: 20px; }
+
+.talk__button {
+  margin-top: 40px;
+  padding-bottom: 40px; }
+
+.talk__btnReply {
+  background: #A3DCDE;
+  border: none;
+  border-radius: 8px;
+  margin-left: 24px;
+  margin-bottom: 16px;
+  font-size: 15px;
+  color: #A3DCDE;
+  color: #66687C;
+  letter-spacing: 1.03px;
+  line-height: 31px;
+  font-family: Karla, Helveltica-Neue, Arial;
+  font-weight: bold; }
+
+.talk .userReply2, .talk .userReply3 {
+  padding-bottom: 40px; }
+
+@media (min-width: 1400px) {
+  body {
+    background-image: url(images/__chatBgDesktop.jpg);
+    background-position: bottom bottom;
+    background: #6E6699; } }
+
+@media (min-width: 640px) and (max-width: 1400px) {
+  body {
+    background-image: url(images/__chatBgDesktop.jpg);
+    background-position: bottom bottom; }
+  .containerWhite {
+    margin-top: 80px;
+    background: #FFFFFF;
+    -webkit-box-shadow: -8px 20px 44px 0 rgba(51, 45, 98, 0.06);
+    box-shadow: -8px 20px 44px 0 rgba(51, 45, 98, 0.06);
+    border-radius: 6px;
+    padding: 40px; } }

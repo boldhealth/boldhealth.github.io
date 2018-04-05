@@ -1,0 +1,169 @@
+@import global.sass
+table
+	th
+		opacity: 0.4;
+		font-size: 12px;
+		color: #72799A;
+		letter-spacing: 1.49px;
+		text-align: center;
+		text-transform: uppercase
+	.month
+
+
+.noPain
+	&__btnNoPain
+		background: #A3DCDE
+		border: none
+		font-size: 27px;
+		color: #FFFFFF;
+		letter-spacing: 2.45px;
+		border-radius: 4px 4px 0px 0px
+		width: 80%
+		height: 54px
+		padding-top: 12px
+
+.pain
+	&__btnPain
+		background: #AD98E3
+		border: none
+		font-size: 27px;
+		letter-spacing: 2.45px;
+		border-radius: 4px 4px 0px 0px
+		width: 80%
+		height: 54px
+		padding-top: 12px
+
+.block-title__number
+	display: inline-block
+	border: 2px solid #AD98E3;
+	border-radius: 100px;
+	height: 32px
+	width: 32px
+	padding-top: 2px
+	padding-left: 10px
+	color: #ad98e3
+
+
+.calendar
+	span.noPain
+		background: #92C5C7
+
+	span
+		display: inline-block
+		width: 80%
+		background: #9B88CB
+		font-size: 14px;
+		color: #FFFFFF;
+		letter-spacing: 1.27px;
+		padding: 8px
+		border-radius: 0px 0px 4px 4px
+		margin-bottom: 8px
+
+	&__calendarNav
+		border: 1px solid #E9E9EE
+	&__month
+		font-weight: bold
+		font-size: 24px;
+		color: #72799A;
+		letter-spacing: 1.52px;
+		text-align: center;
+		text-transform: uppercase
+	&__year
+		opacity: 0.5
+
+.diaryEntry
+	&__iconNight, &__iconDay
+		font-size: 32px
+	&__iconDay
+		color: #E3D198
+	&__iconNight
+		color: #AD98E3
+	ul
+		li
+			list-style-type: none
+
+
+.form-row
+	margin-bottom: 24px
+
+.diaryEntry
+	&__btnEdit, &__btnDelete
+		+border-radius(100px)
+		width: 32px
+		height: 32px
+		margin-right: 8px
+		i
+			margin-left: -2px
+
+
+@media (min-width: 1400px)
+	body
+		background-color: #E4E3EA
+	.noPain
+		&__btnNoPain
+			background: #A3DCDE
+			border: none
+			font-size: 53px;
+			color: #FFFFFF;
+			letter-spacing: 2.45px;
+			border-radius: 4px 4px 0px 0px
+			width: 50%
+			height: 96px
+			padding-top: 12px
+
+
+	.pain
+		&__btnPain
+			background: #AD98E3
+			border: none
+			font-size: 53px;
+			letter-spacing: 2.45px;
+			border-radius: 4px 4px 0px 0px
+			width: 50%
+			height: 96px
+			padding-top: 12px
+
+
+	.containerWhite
+			margin-top: 24px
+			background: #FFFFFF;
+			box-shadow: -8px 20px 44px 0 rgba(51,45,98,0.06);
+			border-radius: 6px;
+			padding: 40px
+	.calendar
+			span
+				display: inline-block
+				width: 50%
+				background: #9B88CB
+				font-size: 14px;
+				color: #FFFFFF;
+				padding: 8px
+				border-radius: 0px 0px 4px 4px
+				margin-bottom: 8px
+
+				font-size: 27px;
+				color: #FFFFFF;
+				letter-spacing: 0.53px;
+				text-align: center;
+				line-height: 32px;
+				margin-bottom: 40px
+			&__days
+				font-size: 18px
+				padding: 30px 0px
+			&__calendarNav
+				border: 1px solid #E9E9EE
+			&__month
+				font-weight: bold
+				font-size: 30px;
+				color: #72799A;
+				letter-spacing: 1.52px;
+				text-align: center;
+				text-transform: uppercase
+			&__year
+				opacity: 0.5
+
+@media (min-width: 640px) and (max-width: 1400px)
+	body
+		background-color: #E4E3EA
+	.containerWhite
+		margin-top: 24px

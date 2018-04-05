@@ -1,0 +1,150 @@
+@import ./global.sass
+body
+	background: #fff
+	//background-image: url(images/Grid.png)
+	background-repeat: repeat-y
+	background-position: center top
+
+.navbar
+	margin-bottom: 0
+
+.block-title
+	&__section
+		font-size: 28px;
+		color: #322C5F;
+		letter-spacing: 1.61px;
+		text-align: center;
+		font-weight: bold
+.content
+	background: none
+	margin: 18px
+.pageTitle
+	margin: 0px -2px
+	background: #A3DCDE
+	height: 172px
+	color: #352F60;
+	letter-spacing: -0.43px;
+	.details
+		padding-left: 18px
+	&__title
+		//padding-left: 18px
+		font-size: 43px;
+		margin-top: 38px
+		font-weight: bold
+	&__subtitle
+		//padding-left: 18px
+.fadeTitle
+	opacity: 0.2
+
+.gift
+	margin-top: 174px
+	background: #A3DCDE
+	padding-top: 42px
+	padding-bottom: 46px
+	padding: 40px
+
+	h1, p
+		padding: 0px
+	&__title
+		+karlaBold
+		font-size: 30px;
+		color: #352F60;
+		letter-spacing: -0.22px;
+		line-height: 45px;
+	&__btnSendGift
+		background: #6E6699;
+		box-shadow: 0 27px 27px 0 rgba(0,0,0,0.13);
+		border-radius: 8px;
+		height: 72px
+
+.viewCommunity
+
+	.pageTitle
+		background: #6E6699
+		height: auto
+		padding-bottom: 20px
+
+		.category
+			opacity: 0.3;
+			font-size: 14px;
+			color: #FFFFFF;
+			letter-spacing: 5.36px;
+			text-transform: uppercase
+			margin-bottom: -200px
+			display: inline-block
+
+		.info
+			color: #fff
+			opacity: 0.5
+			display: inline-block
+			margin-right: 24px
+			margin-bottom: 24px
+			border-right: 1px solid #fff
+			padding-right: 16px
+
+			:last
+				border-right: none
+
+		&__title
+			color: #fff
+			font-size: 25px;
+			color: #FFFFFF;
+			letter-spacing: -0.03px;
+			font-weight: bold
+
+		.description
+			padding: 24px
+			background: #FFFFFF;
+			box-shadow: -8px 20px 44px 0 rgba(51,45,98,0.08);
+			border-radius: 4px;
+			width: 95%
+
+			&__pic
+				margin-right: 15px
+
+	.replies
+		padding: 18px
+		&__title
+			font-family: Karla-Regular;
+			font-size: 22px;
+			color: #67687C;
+			letter-spacing: 0.25px;
+
+		&__pic
+			margin-right: 20px
+		&__name
+			font-size: 15px;
+			color: #66687C;
+			letter-spacing: -0.2px;
+			line-height: 20px;
+			font-weight: bold
+		&__comment
+			font-size: 15px;
+			color: #66687C;
+			letter-spacing: -0.2px;
+			line-height: 20px;
+
+	.compose
+		&__txtCompose
+			background: none
+			margin-bottom: 16px
+
+@media (min-width: 1400px)
+	.gift
+		background-image: url(images/gift__bg1440.png);
+		+backgroundCover;
+
+
+//Tablets
+@media (min-width: 760px) and (max-width: 1024px)
+	.block-title
+		&__section
+			font-size: 33px;
+			color: #322C5F;
+			letter-spacing: -0.41px;
+			text-align: center;
+			line-height: 47px;
+
+	.gift
+		background-image: url(images/gift__bg1440.png)
+		+backgroundCover;

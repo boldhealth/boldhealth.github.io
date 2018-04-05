@@ -1,0 +1,100 @@
+@import "global.sass"
+body
+	background: #EFEFEF
+.category
+	margin-bottom: 40px
+	//border-bottom: 1px solid #EFEFF3
+.details
+	p
+		margin-bottom: 40px
+
+.active
+	background: red
+
+.practice
+	padding: 14px
+	margin-bottom: 24px
+	background-color: #AD98E3
+	border-radius: 4px
+	//background-image: url(https://images.unsplash.com/photo-1510463145325-121853befb54?ixlib=rb-0.3.5&s=63e450614f0615b9a977eb7f308c3cab&auto=format&fit=crop&w=1500&q=80)
+	background-size: cover
+	background: #FFFFFF;
+	box-shadow: 0 2px 60px 0 rgba(114,121,154,0.24);
+	border-radius: 13px;
+	&__btnPlay
+		border: 3px solid #FFFFFF;
+		border-radius: 100px;
+		background: none
+		width: 54px
+
+	&__iconPlay
+
+	&__title
+		font-family: Karla-Regular;
+		font-size: 22px;
+		color: #332D62;
+		letter-spacing: -0.45px;
+		//+karlaBold
+
+	&__artist
+		opacity: 0.45;
+		font-size: 15px;
+		color: #FFFFFF;
+		letter-spacing: -0.31px;
+		line-height: 31px;
+
+	&__image
+		margin-right: 24px
+.styleTwo
+	background: #A3DCDE
+
+
+.practicePlayer
+	background-image: url("https://images.unsplash.com/photo-1510463145325-121853befb54?ixlib=rb-0.3.5&s=63e450614f0615b9a977eb7f308c3cab&auto=format&fit=crop&w=1500&q=80")
+	background-position: center
+	background-size: cover
+
+	.player
+		margin-top: 128px
+		&__btnPlay
+			color: #fff
+			border: 5px solid #fff
+			display: inline-block
+			height: 64px
+			width: 64px
+			+border-radius(40px)
+			font-size: 32px
+			padding-top: 12px
+		&__trackName
+			font-size: 39px;
+			color: #FFFFFF;
+			letter-spacing: -0.8px;
+		&__artistName
+			opacity: 0.45;
+			font-size: 18px;
+			color: #FFFFFF;
+			letter-spacing: -0.31px;
+			line-height: 31px;
+
+
+.poweredBy
+	opacity: 0.5
+	margin-top: 128px
+	color: #fff
+	h5
+		font-size: 15px
+
+
+@media (min-width: 1400px)
+	body
+		background: #E4E3EA
+
+	.practice
+		box-shadow: none
+		border: 1px solid #EFEFF3
+
+@media (min-width: 640px) and (max-width: 1400px)
+	body
+		background: #E4E3EA
+	.containerWhite
+		margin-top: 24px

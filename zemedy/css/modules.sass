@@ -1,0 +1,173 @@
+@import "global.sass"
+
+.fixed-bottom
+	margin-bottom: 0
+
+.main
+	background: #EFEFEF
+
+.view-modules
+	background: #fff
+	.navbar
+		.btnBack
+			margin-right: 30px
+		.btnBack, #btnPopoverContent
+			font-size: 26px
+			//margin-right: 40px
+.popover-header
+	padding: 16px
+.exit
+	padding: 16px
+	font-size: 18px
+	.btn
+		margin-right: 16px
+
+.moduleContent
+	position: absolute
+	right: 40px
+	background: #fff
+
+
+.modules, .modules__module, .modules__details
+	@include border-radius(5px)
+
+.modules
+	&__imgLInes
+		position: absolute
+		left: 62px
+		margin-top: 45px
+		height: 20px
+	&__progress
+		+border-radius(80px)
+		margin-left: 20px
+		.progress-bar
+			background: #AD97E3
+	&__module
+		margin-bottom: 20px
+
+	&__list
+		border-radius: 16px
+
+	&__details
+		padding: 24px
+		background: #fff
+		@include border-radius(4px 4px 0px 0px)
+		border-bottom: 1px solid #E7E6ED
+
+	&__lessons
+		padding: 24px
+		background: #fff
+		border-radius: 20px
+	&__illustration
+		+border-radius(12px)
+
+	&__title
+		margin-left: 20px
+		font-size: 20px;
+		color: #66687C;
+		letter-spacing: 0.81px;
+
+	&__subtitle
+		margin-left: 20px
+		opacity: 0.5;
+		font-family: $font-stack;
+		font-weight: bold
+		font-size: 11px;
+		color: #66687C;
+		letter-spacing: 3.13px;
+		line-height: 29px;
+		text-transform: uppercase
+
+	&__iconLock, &__btnPlay
+		margin-bottom: 16px
+		display: inline-block
+		height: 48px
+		width: 48px
+		padding-left: 18px
+		padding-top: 14px
+		margin-right: 20px
+
+		background: #FFFFFF;
+		border: 1px solid #E7E6ED;
+		+border-radius(40px)
+
+	&__listTitle
+		color: #AAAFC2
+	&__listUnlockedTitle
+		font-weight: bold
+	&__iconLock
+		color: #D7D6DD
+	&__btnPlay
+		background: #A3DCDE;
+		border: none
+		padding-left: 20px
+		font-size: 20px
+		color: #fff
+
+.module
+	overflow: scroll
+	padding: 0px 40px 40px 40px
+	&__controller
+		margin-top: 16px
+		margin-left: 80px
+	&__player
+		padding-top: 24px
+		height: 120px
+		background: #fff
+		margin-top: 40px
+		//border-top: 5px solid #AD98E3
+		border-radius: 0
+
+		.progress
+			height: 5px
+			margin-bottom: 16px
+			margin: 0 auto
+			//width: 80%
+			border-radius: 0
+			.progress-bar
+				background: #AD98E3
+	&__btnReplay
+		margin-right: 16px
+	&__btnPlay
+		height: 60px
+		width: 60px
+		+border-radius(12px)
+		font-size: 34px
+		border: #CCCDD4 solid 1px
+		margin: auto 32px
+
+	&__icoBackward
+		//margin-left: 5px
+	&__icoPlay
+	padding-top: 10px
+	display: inline-block
+	&__icoPlay,&__icoBackward, &__icoForward
+		margin-left: 10px;
+		font-size: 34px;
+		padding-top: 10px
+		display: inline-block
+	&__icoBackward, &__icoForward
+		padding-left: -10px
+		display: inline-block
+		margin-left: 5
+	&__btnBackward, &__btnForward
+		height: 48px
+		width: 48px
+		border-radius: 60px
+		border: #CCCDD4 solid 1px
+		+border-radius(12px)
+
+.exit
+	&__btnExit, &__btnResume
+		height: 40px
+
+
+@media (min-width: 1400px)
+	.view-modules
+		background: #EFEFEF
+	.module
+		margin-top: 80px
+		padding-top: 40px
+		background: #FFFFFF;
+		box-shadow: 0 9px 16px 0 rgba(114,121,154,0.18);
+		border-radius: 7px;

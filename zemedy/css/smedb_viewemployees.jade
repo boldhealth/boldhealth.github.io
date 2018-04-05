@@ -1,0 +1,166 @@
+html
+	include global.jade
+	head
+		+header-declaration
+	body
+		+header-sme
+		.container-fluid
+			.sidebar.col-md-3
+				.row
+					.col-md-12
+						ul
+							li Our employees
+							li Our Company
+
+			.content.col-md-8.col-xs-12
+				.row
+					div.title
+						h4.col-xs-7 Our Employes					
+						button.col-xs-4.btn.btn-default Add Member
+					
+					div.tools.col-md-12
+						.row
+							div.col-xs-8.col-md-8
+								div.form-group
+									input.form-control(placeholder="Search Employee" type="email")
+							div.col-xs-4.col-md-4
+								button.btn.btn-default.col-md-12 Filter
+							
+					div.employees
+						mixin employee(empname, age, birth, gender)
+							div.employee.col-xs-12.col-md-12
+								
+								
+								div.basic-info.row
+									img.col-xs-3(src="http://via.placeholder.com/48x48")
+									
+
+								div.more-info.row
+									.col-xs-12
+										h3 #{empname}
+										p #{age} | #{birth} | #{gender}
+									.col-xs-5
+										span R&B
+									.col-xs-7
+										span Ward
+									.col-xs-5
+										span MBL
+									.col-xs-7
+										span PHP100,000
+									.col-xs-5
+										span Card No.
+									.col-xs-7
+										span 233-2121-1111
+									.col-xs-5
+										span Dependents
+									.col-xs-7
+										button.btn.btn-default(data-target="#view-dependents" data-toggle="modal") 3
+									.col-xs-5
+										span Coverage Start
+									.col-xs-7
+										span Nov. 23, 2017
+									.col-xs-5
+										span Coverage End
+									.col-xs-7
+										span Nov. 23, 2018
+																	
+								div.cta.row
+									.col-xs-12
+										button.btn.btn-default.col-xs-6(type="button" data-target="#updateinfo" data-toggle="modal")  Update Info
+										button.btn.btn-default.col-xs-6(data-target="#deactivate-account" data-toggle="modal") Deactivate																
+						+employee("Sarah Larson", "20", "Nov. 1, 2000", "Female")
+						+employee("Sarah", "20", "Nov. 1, 2000", "Female")
+						+employee("Sarah", "20", "Nov. 1, 2000", "Female")
+					
+
+					
+					
+//Update Employee Details
+div.modal.fade(id="updateinfo"  dtabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true")
+	div.modal-dialog
+		//Modal content
+		div.modal-content
+			div.modal-header
+				h4.modal-title Edit Sarah De Guzman
+			div.modal-body
+				form
+					div.alert.alert-primary(role="alert") Editing the employee info cost PHP300.00.
+					div.form-group
+						label Firstname
+						input.form-control#form6(value="" type="text")
+					div.form-group
+						label Middlename
+						input.form-control(value="" type="text")
+					div.form-group
+						label Lastname
+						input.form-control(value="" type="text")
+					div.form-group
+						label Birthday
+						select.form-control
+					div.form-group
+						label Gender
+						select.form-control
+					div.form-group
+						label Status
+						select.form-control
+					div.form-group
+						label Address
+						input.form-control(value="" type="text")
+					p This update is subject for approval by BayaniHealth. To make sure this request is made by authorised person, we want you to enter your login password below
+					div.form-group
+						label Password
+						input.form-control(value="" type="Password")
+							
+							
+					.row
+						.col-xs-6
+							button.col-xs-12.btn.btn-default Cancel
+						.col-xs-6
+							button.col-xs-12.btn.btn-primary Submit
+
+
+//Deactivate Account
+div.modal.fade(id="deactivate-account"  dtabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true")
+	div.modal-dialog
+		//Modal content
+		div.modal-content
+			div.modal-header
+				h4.modal-title Deactivate Sarah De Guzman
+			div.modal-body
+				form
+					div.form-group
+						label Why do you want to deactivate Sarah?
+						select.form-control
+					div.form-group
+						label Tell us more about this
+						input.form-control(value="" type="text")
+					p This update is subject for approval by BayaniHealth. To make sure this request is made by authorised person, we want you to enter your login password below
+					div.form-group
+						label Password
+						input.form-control(value="" type="Password")
+							
+							
+					.row
+						.col-xs-6
+							button.col-xs-12.btn.btn-default Cancel
+						.col-xs-6
+							button.col-xs-12.btn.btn-primary Submit
+							
+//View Dependents
+div.modal.fade(id="view-dependents"  dtabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true")
+	div.modal-dialog
+		//Modal content
+		div.modal-content
+			div.modal-header
+				h4.modal-title Sarah De Guzman Dependents
+			div.modal-body
+				mixin dependent
+					div.dependent
+						h3 Margie Cruz
+						h5 Card No. 212 2111 2333
+						p Daughter | 15 | Birth on Mar 6, 2002
+						button.btn.btn-default Edit
+						
+					
+				+dependent
+				+dependent

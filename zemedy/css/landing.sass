@@ -1,0 +1,370 @@
+@import global.sass
+
+.navbar
+	box-shadow: none
+.hero
+	background-image: linear-gradient(-178deg, #FFFFFF 0%, #A3DCDE 93%);
+	background-color: none
+	background-image: url(images/landing__heroBgMobile.png)
+	background-position: bottom
+	background-size: cover
+
+	&__title
+		padding-top: 132px
+		font-size: 33px;
+		color: #352F60;
+		letter-spacing: -0.45px;
+		text-align: center;
+		line-height: 38px;
+		+karlaBold
+
+	&__details
+		opacity: 0.5;
+		font-family: Karla-Regular;
+		font-size: 16px;
+		color: #352F60;
+		letter-spacing: -0.39px;
+		text-align: center;
+		line-height: 18px;
+	&__btnStartTrial
+		font-size: 21px;
+		color: #363062;
+		letter-spacing: 0.41px;
+		text-align: center;
+		line-height: 36px;
+		font-weight: bold
+		margin-bottom: 280px
+		background: #AC97E3;
+		box-shadow: 0 12px 19px 0 rgba(0,0,0,0.21);
+		border-radius: 6px;
+
+.hero__cloudBg
+	z-index: 0
+	top: 100px
+	display: inline-block
+	position: absolute
+  animation: movecloud 1s ease-in-out infinite;
+	opacity: 1;
+
+@keyframes movecloud
+	from
+		opacity: 0;
+	to
+		opacity: 0.5;
+
+.block-title
+	&__section
+		margin-top: 86px
+		font-size: 23px;
+		color: #2D2752;
+		letter-spacing: 1.55px;
+		text-align: center;
+		line-height: 31px;
+		font-weight: bold
+.experts
+	&__title
+		+karlaBold
+		font-size: 23px;
+		color: #2D2752;
+		letter-spacing: 1.55px;
+		text-align: center;
+		line-height: 31px;
+.expert
+	margin-bottom: 46px
+	&__pic
+		+border-radius(200px)
+	&__name
+		font-size: 20px;
+		color: #322C5F;
+		letter-spacing: 0.77px;
+		text-align: center;
+		line-height: 24px;
+	&__title
+		opacity: 0.5;
+		font-size: 15px;
+		color: #322C5F;
+		letter-spacing: 0.77px;
+		text-align: center;
+		line-height: 24px;
+.slide
+	&__title
+		font-size: 20px;
+		color: #6E6699;
+		letter-spacing: -0.35px;
+	&__details
+		margin-bottom: 116px
+
+	&__pic
+		margin-bottom: 50px
+
+
+.question
+	&__number
+		display: inline-block
+		height: 40px
+		width: 40px
+		border: 3px solid #AC97E3;
+		border-radius: 56px
+		text-align: center
+		margin-right: 32px
+
+		font-size: 24px;
+		color: #AC97E3;
+		letter-spacing: -0.24px;
+
+	&__title
+		font-size: 22px;
+		color: #6E6699;
+		letter-spacing: -0.16px;
+
+	&__answer
+		opacity: 0.5;
+		font-family: Karla-Regular;
+		font-size: 16px;
+		color: #322C5F;
+		letter-spacing: -0.07px;
+		line-height: 20px;
+.getTrial
+	padding-top: 60px
+	padding-bottom: 0px
+	background-image: url(images/getTrial__bgMobile.jpg)
+	+backgroundCover
+	padding: 38px
+	&__title
+		font-size: 23px;
+		color: #2D2752;
+		letter-spacing: 0.85px;
+		text-align: center;
+		line-height: 31px;
+		+karlaBold
+
+	input[type="text"], input[type="password"]
+		margin-bottom: 10px
+.gift
+	//margin-top: 174px
+	background: #A3DCDE
+	padding-top: 42px
+	padding-bottom: 46px
+	padding: 40px
+	background-image: url(images/gift__bgMobile.png);
+	+backgroundCover
+	h1, p
+		padding: 0px
+	&__title
+		+karlaBold
+		font-size: 30px;
+		color: #352F60;
+		letter-spacing: -0.22px;
+		line-height: 45px;
+	&__btnSendGift
+		background: #6E6699;
+		box-shadow: 0 27px 27px 0 rgba(0,0,0,0.13);
+		border-radius: 8px;
+		height: 72px
+
+
+@media (min-width: 1600px)
+
+	.hero
+		background-color: none
+		background-image: url(images/landing__heroBg1920.png)
+		background-position: bottom
+		background-size: cover
+
+		&__title
+			padding-top: 167px
+			font-size: 88px;
+			color: #352F60;
+			letter-spacing: -3.42px;
+			text-align: center;
+			margin-bottom: 23px
+			font-weight: bold
+
+		&__details
+			opacity: 0.5;
+			font-family: Karla-Bold;
+			font-size: 22px;
+			color: #352F60;
+			letter-spacing: -0.19px;
+			text-align: center;
+			line-height: 40px;
+			margin-bottom: 22px
+		&__btnStartTrial
+			font-size: 21px;
+			color: #363062;
+			letter-spacing: 0.41px;
+			text-align: center;
+			line-height: 36px;
+			font-weight: bold
+			margin-bottom: 340px
+			box-shadow: 0 27px 27px 0 rgba(0,0,0,0.13);
+
+	.block-title__section
+		margin-top: 292px
+		font-size: 41px;
+		color: #322C5F;
+		letter-spacing: -0.51px;
+		text-align: center;
+		line-height: 47px;
+		margin-bottom: 75px
+
+	.slide
+		&__title
+			margin-top: 40px
+			font-family: Karla-Bold;
+			font-size: 20px;
+			color: #6E6699;
+			letter-spacing: -0.35px;
+
+
+	.experts
+		padding-top: 260px
+		&__title
+			font-size: 41px;
+			font-weight: bold
+			color: #322C5F;
+			letter-spacing: -0.51px;
+			line-height: 47px;
+			margin-bottom: 80px
+		&__subtitle
+			text-align: left
+			font-size: 18px;
+			color: #352F60;
+			letter-spacing: 0.37px;
+			line-height: 27px;
+	.expert
+		&__pic
+			border-radius: 200px
+
+	.gift
+		background-image: url(images/gift__bg1440.png)
+		background-position: bottom center
+		background-size: cover
+		&__title
+			font-size: 40px;
+			color: #352F60;
+			letter-spacing: -0.29px;
+			line-height: 43px;
+			font-weight: bold
+	.getTrial
+		background-image: url(images/getTrial__bg1440.jpg)
+		+backgroundCover
+		padding-bottom: 180px
+		padding-top: 160px
+
+		&__title
+			font-size: 40px;
+			color: #352F60;
+			letter-spacing: -0.29px;
+			line-height: 43px;
+			font-weight: bold
+
+
+
+@media (min-width: 760px) and (max-width: 1440px)
+	.getTrial
+		padding-top: 180px
+		padding-bottom: 170px
+		background-image: url(images/getTrial__bg1440.jpg)
+		+backgroundCover
+
+		&__title
+			text-align: left
+			font-size: 41px;
+			color: #322C5F;
+			letter-spacing: -0.51px;
+			text-align: center;
+			line-height: 47px;
+@media (min-width: 1400px) and (max-width: 1600px)
+	.gift
+		background-image: url(images/gift__bg1440.jpg)
+		+backgroundCover
+	.hero
+		background-color: none
+		background-image: url(images/landing__heroBg1440.png)
+		background-position: bottom
+		background-size: cover
+		&__title
+			padding-top: 80px
+			font-size: 62px;
+			color: #352F60;
+			letter-spacing: -3.42px;
+			text-align: center;
+			margin-bottom: 23px
+			font-weight: bold
+
+		&__details
+			opacity: 0.5;
+			font-family: Karla-Bold;
+			font-size: 22px;
+			color: #352F60;
+			letter-spacing: -0.19px;
+			text-align: center;
+			line-height: 40px;
+			margin-bottom: 22px
+		&__btnStartTrial
+			margin-bottom: 282px
+			box-shadow: 0 27px 27px 0 rgba(0,0,0,0.13);
+
+	.block-title__section
+		font-size: 41px;
+		color: #322C5F;
+		letter-spacing: -0.51px;
+		text-align: center;
+		line-height: 47px;
+		margin-bottom: 75px
+		margin-top: 120px
+
+	.slide
+		&__title
+			margin-top: 40px
+			font-family: Karla-Bold;
+			font-size: 20px;
+			color: #6E6699;
+			letter-spacing: -0.35px;
+
+@media (min-width: 760px) and (max-width: 800px)
+	.block-title
+		&__section
+			font-size: 33px;
+			color: #322C5F;
+			letter-spacing: -0.41px;
+			text-align: center;
+			line-height: 47px;
+			margin-bottom: 110px
+	.hero
+		background-image: url(images/landing__heroBgTablet.png)
+		+backgroundCover;
+		padding-bottom: 128px
+
+		&__title
+			font-size: 57px;
+			color: #352F60;
+			letter-spacing: -2.22px;
+			text-align: center;
+			padding-top: 190px
+
+		&__details
+			opacity: 0.5;
+			font-family: Karla-Bold;
+			font-size: 16px;
+			color: #352F60;
+			letter-spacing: -0.15px;
+			text-align: center;
+			line-height: 28px;
+	
+	.how
+		.slide
+			&__title
+				font-size: 20px;
+				color: #2D2752;
+				letter-spacing: -0.35px;
+				line-height: 22px;
+
+		.slideTwo
+			text-align: right
+	.experts
+		background-image: url(images/landing__expertBgTablet.png)
+		+backgroundCover
+		padding-top: 272px
+		padding-bottom: 135px

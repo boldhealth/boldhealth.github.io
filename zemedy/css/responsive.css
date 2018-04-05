@@ -1,0 +1,60 @@
+@media (min-width: 1400px) {
+  .sidebar {
+    width: 30%;
+    height: 100%; }
+  .main {
+    margin-bottom: 200px; }
+  .navbar {
+    margin-bottom: 24px; }
+    .navbar__btnArrowBack {
+      font-size: 21px;
+      color: #797F9F;
+      letter-spacing: 8.51px;
+      line-height: 33px;
+      margin-right: 32px; }
+    .navbar__pageTitle {
+      display: inline-block;
+      font-family: Karla, Helveltica-Neue, Arial;
+      font-size: 26px;
+      color: #332E5B;
+      letter-spacing: -0.59px;
+      font-weight: bold; }
+  .fixed-bottom {
+    margin-left: -60px;
+    padding-right: 0px;
+    border-bottom: solid 1px #DDDEE4;
+    margin-top: 100px;
+    margin-bottom: 0px; }
+    .fixed-bottom .label {
+      display: inline-block;
+      font-size: 14px;
+      color: #C2C3CB;
+      letter-spacing: -0.59px; }
+    .fixed-bottom .ellePic {
+      height: 64px;
+      width: 64px; }
+    .fixed-bottom i {
+      font-size: 21px;
+      color: #C2C3CB;
+      letter-spacing: 8.51px;
+      line-height: 33px; }
+    .fixed-bottom .navbar-toggler {
+      border: none; }
+    .fixed-bottom ul li {
+      float: left; }
+  .containerWhite {
+    margin-top: 80px;
+    background: #FFFFFF;
+    -webkit-box-shadow: -8px 20px 44px 0 rgba(51, 45, 98, 0.06);
+    box-shadow: -8px 20px 44px 0 rgba(51, 45, 98, 0.06);
+    border-radius: 6px;
+    padding: 40px; } }
+
+@media (min-width: 640px) and (max-width: 1400px) {
+  .containerWhite {
+    margin-top: 80px;
+    background: #FFFFFF;
+    -webkit-box-shadow: -8px 20px 44px 0 rgba(51, 45, 98, 0.06);
+    box-shadow: -8px 20px 44px 0 rgba(51, 45, 98, 0.06);
+    border-radius: 6px;
+    padding: 40px; } }
