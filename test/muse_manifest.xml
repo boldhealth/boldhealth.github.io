@@ -1,0 +1,275 @@
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="bold.health" resolutions="1x" timestamp="1540208180218">
+  <folder name="css">
+    <file name="site_global.css" crc="4250323187"/>
+    <file name="master_a-p_g_-maestra.css" crc="3989318352" ref="index"/>
+    <file name="nomq_preview_master_a-p_g_-maestra.css" crc="300964108" ref="index"/>
+    <file name="index.css" crc="402330235" ref="index"/>
+    <file name="nomq_index.css" crc="3776325843" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="twitter_logo_whiteonblue.eps" crc="151408707" seo="true" mt="1507180484000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="340535759" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="310584261" ref="index"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index"/>
+    <file name="webpro.js" crc="4059564322" ref="index"/>
+    <file name="form_check.php" crc="4020933626" ref="index"/>
+    <file name="form_throttle.php" crc="4259590256" ref="index"/>
+    <file name="form_process.php" crc="37464564" ref="index"/>
+    <file name="form-u7538.php" crc="527311616" ref="index"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="index"/>
+    <file name="musewpdisclosure.js" crc="3883500470" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="index"/>
+    <file name="require.js" crc="7928878" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="elena-koycheva-799745-unsplash-crop-u7928.png" crc="100339499" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bg2.png" crc="4131898988" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="icons1-13.png" crc="4150031528" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="icons1-12.png" crc="328242250" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="icons1-11.png" crc="3772843281" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="icons1-10.png" crc="4224877482" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="icons-13.png" crc="242188431" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="icons-08.png" crc="3969522601" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="icons-09.png" crc="141857779" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="icons-10.png" crc="4029281292" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="icons-11.png" crc="3842580179" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="icons-12.png" crc="182494462" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bbc_blocks-crop-u7504.png" crc="234371102" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="guardian-logobyn.jpg" crc="3994958924" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="techcrunch-logo-png-4 copiabyn.png" crc="3998730063" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="thrive-globalbyn-crop-u7506.png" crc="151143300" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="sbc_internet (157).jpg" crc="216612239" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="sbc_internet__161_.jpg" crc="4063360823" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="mattstammers-402.jpg" crc="327385477" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="peter whorwell.png" crc="97862571" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="melissa hunt.png" crc="3774195197" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="peter gru.png" crc="4091180491" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="iain jordan.png" crc="60454973" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chris.png" crc="4066090596" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="gary.png" crc="286358670" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="sbc-digital-health.svg" crc="477790228" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="sbc digital health_poster_.png" crc="4203296789" ref="index"/>
+    <file name="jyevv67w-crop-u7523.png" crc="4285788435" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="f-ogo_rgb_hex-58.svg" crc="4247652227" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="f-ogo_rgb_hex-58_poster_.png" crc="4207727572" ref="index"/>
+    <file name="twitter_logo_whiteonblue.svg" crc="29971340" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="twitter_logo_whiteonblue_poster_.png" crc="4036957671" ref="index"/>
+    <file name="in-2c-128px-r-crop-u7492.png" crc="4282652809" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="elena-koycheva-799745-unsplash-crop-u79282.png" crc="416432952" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bbc_blocks-crop-u75042.png" crc="66511317" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="thrive-globalbyn-crop-u75062.png" crc="4269555506" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="jyevv67w-crop-u75232.png" crc="4024544791" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="in-2c-128px-r-crop-u74922.png" crc="243130033" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="elena-koycheva-799745-unsplash-crop-u79283.png" crc="4002930024" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bg2480x575.png" crc="4131256336" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bbc_blocks-crop-u75043.png" crc="5085991" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="thrive-globalbyn-crop-u75063.png" crc="4190787046" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="jyevv67w-crop-u75233.png" crc="243952249" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="in-2c-128px-r-crop-u74923.png" crc="354036053" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="elena-koycheva-799745-unsplash-crop-u79284.png" crc="4073404873" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bg2-crop-u13521.png" crc="268572100" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bbc_blocks-crop-u75044.png" crc="3779536544" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="thrive-globalbyn-crop-u75064.png" crc="4278178714" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="jyevv67w-crop-u75234.png" crc="3973610965" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="in-2c-128px-r-crop-u74924.png" crc="265894745" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="elena-koycheva-799745-unsplash-crop-u79285.png" crc="4277550487" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bg2-crop-u135212.png" crc="462435596" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bbc_blocks-crop-u75045.png" crc="3804155986" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="thrive-globalbyn-crop-u75065.png" crc="391463006" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="sbc_internet (157)-u7562-fr.jpg" crc="3905458498" ref="index"/>
+    <file name="sbc_internet__161_-u7526-fr.jpg" crc="227367953" ref="index"/>
+    <file name="peter whorwell-u7494-fr.png" crc="4030384310" ref="index"/>
+    <file name="melissa hunt-u7489-fr.png" crc="353989755" ref="index"/>
+    <file name="peter gru-u7536-fr.png" crc="496433575" ref="index"/>
+    <file name="chris-u7517-fr.png" crc="462184319" ref="index"/>
+    <file name="jyevv67w-crop-u75235.png" crc="3946968866" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="in-2c-128px-r-crop-u74925.png" crc="4193203871" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+  </folder>
+  <file name="index.html" crc="104065740" seo="true" mt="1540208168505" redirect="true"/>
+</manifest>
